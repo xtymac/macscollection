@@ -16,7 +16,7 @@ const NavMenu = (props) => {
             <a href=".">design</a>
           </li>
           <li>
-            <a href=".">adobexd</a>
+            <a href=".">adobeXD</a>
           </li>
           <li>
             <a href=".">JLPT</a>
@@ -25,7 +25,7 @@ const NavMenu = (props) => {
             <a href=".">photograph</a>
           </li>
           <li>
-            <a href=".">more</a>
+            <a href=".">about</a>
           </li>
         </ul>
       </nav>

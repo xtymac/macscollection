@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { Transition, animate } from 'react-spring';
 import NavMenu from '../../UI/NavMenu';
-import MobileMenu from './MobileMenu';
+import MobileMenu from '../../UI/MobileMenu';
 import classes from './Navigation.module.scss';
 
 const Navigation = () => {
@@ -32,12 +31,7 @@ const Navigation = () => {
         </div>
       </div>
 
-      {displayMobileMenu && (
-        <MobileMenu
-          closeMenu={closeMobileMenuHandler}
-          className={classes['mobile_menu']}
-        />
-      )}
+      {displayMobileMenu && <MobileMenu closeMenu={closeMobileMenuHandler} />}
     </>
   );
 };

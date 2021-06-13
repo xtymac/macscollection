@@ -3,13 +3,13 @@
 /* MacsCollection */
 .logo {
   margin-top: 4rem;
-  margin-bottom: 0.5rem;
+
   a {
     text-decoration: none;
     font-family: 'Mrs Saint Delafield', cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 60px;
+    font-size: 3.7rem;
     line-height: 92px;
     text-align: center;
     color: #ffffff;
@@ -22,5 +22,6 @@
     float: left;
     margin-top: 3rem;
     margin-left: 0px;
+    white-space: nowrap;
   }
 }

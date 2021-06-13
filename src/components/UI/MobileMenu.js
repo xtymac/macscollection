@@ -1,6 +1,12 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import classes from './MobileMenu.module.scss';
 
-const MobileMenu = (props) => {
+const Backdrop = (props) => {
+  return <div className={classes.backdrop} onClick={props.closeMenu} />;
+};
+
+const MenuOverlay = (props) => {
   return (
     <>
       {/* mobile menu */}
@@ -40,6 +46,23 @@ const MobileMenu = (props) => {
           </div>
         </div>
       </div>
+    </>
+  );
+};
+
+const portalElement = document.getElementById('overlays');
+
+const MobileMenu = (props) => {
+  return (
+    <>
+      {ReactDOM.createPortal(
+        <Backdrop closeMenu={props.closeMenu} />,
+        portalElement
+      )}
+      {ReactDOM.createPortal(
+        <MenuOverlay closeMenu={props.closeMenu} />,
+        portalElement
+      )}
     </>
   );
 };

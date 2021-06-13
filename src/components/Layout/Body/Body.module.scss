@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
+body {
+  position: relative;
+  margin: 0 auto;
+  width: 1280px;
+  border: 5px solid #fff;
+  .slogan {
+    position: absolute;
+    height: 40vmin;
+    right: 0vw;
+    top: 12vh;
+    p {
+      color: white;
+      font-family: 'Heebo', sans-serif;
+    }
+    .diem {
+      position: relative;
+      bottom: -140px;
+      font-size: 20vmin;
+      margin-bottom: 0;
+      margin-right: 0.2vw;
+      line-height: 270px;
+      text-align: right;
+      letter-spacing: 0.005em;
+    }
+    .carpe {
+      font-size: 25vmin;
+      margin-top: 0;
+      margin-right: -42px;
+      margin-bottom: 0;
+      text-align: right;
+      letter-spacing: -0.01em;
+      span {
+        position: relative;
+        font-size: 180px;
+        left: -15px;
+        bottom: -20px;
+      }
+    }
+  }
+}
