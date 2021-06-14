@@ -1,41 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
 
 body {
-  position: relative;
   margin: 0 auto;
+  height: auto;
   width: 1280px;
   border: 5px solid #fff;
+  z-index: 0;
+  @media (max-width: 1280px) {
+    width: auto;
+  }
   .slogan {
-    position: absolute;
-    height: 40vmin;
-    right: 0vw;
-    top: 12vh;
-    p {
-      color: white;
-      font-family: 'Heebo', sans-serif;
-    }
+    position: relative;
     .diem {
-      position: relative;
-      bottom: -140px;
-      font-size: 20vmin;
-      margin-bottom: 0;
-      margin-right: 0.2vw;
-      line-height: 270px;
-      text-align: right;
-      letter-spacing: 0.005em;
+      position: absolute;
+      top: 20vh;
+      right: 0vw;
+      .carpe {
+        width: 70vmin;
+        @media (max-width: 767px) {
+          width: 80vmin;
+        }
+      }
     }
-    .carpe {
-      font-size: 25vmin;
-      margin-top: 0;
-      margin-right: -42px;
-      margin-bottom: 0;
-      text-align: right;
-      letter-spacing: -0.01em;
-      span {
-        position: relative;
-        font-size: 180px;
-        left: -15px;
-        bottom: -20px;
+    .logo {
+      position: absolute;
+      top: 3vh;
+      left: 0vw;
+      @media (max-width: 767px) {
+        top: 14vh;
+        left: 0vw;
       }
     }
   }

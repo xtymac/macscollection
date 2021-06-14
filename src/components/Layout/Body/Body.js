@@ -1,14 +1,18 @@
 import classes from './Body.module.scss';
+import slogan from '../../../assets/Logo/slogan.png';
+import ReactLogo from '../../UI/Logo/ReactLogo';
 
 const Body = (props) => {
   return (
     <>
-      <div className={classes.body}>
+      <div>
         <div className={classes.slogan}>
-          <p className={classes.diem}>Diem</p>
-          <p className={classes.carpe}>
-            Carpe<span>.</span>
-          </p>
+          <div className={classes.diem}>
+            <img src={slogan} className={classes.carpe} alt="slogan" />
+          </div>
+          <div className={classes.logo}>
+            <ReactLogo />
+          </div>
         </div>
       </div>
     </>

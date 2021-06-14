@@ -38,8 +38,8 @@ const MenuOverlay = (props) => {
         </nav>
 
         {/* Close mobile menu icon */}
-        <div className={classes['menu__wrapper']}>
-          <div tabindex="5" onClick={props.closeMenu}>
+        <div className={classes['menu__wrapper']} onClick={props.closeMenu}>
+          <div tabindex="5">
             <div className={classes.circle}></div>
             <div className={classes.circle}></div>
             <div className={classes.circle}></div>

@@ -1,4 +1,5 @@
 .backdrop {
+  cursor: pointer;
   position: fixed;
   top: 0;
   left: 0;
@@ -11,6 +12,7 @@
 
 // Mobile Menu
 .mobile-menu {
+  position: relative;
   position: fixed;
   margin: 0;
   right: 0%;
@@ -51,6 +53,11 @@
 }
 
 .menu__wrapper {
+  position: absolute;
+  top: 10px;
+  left: -50px;
+  cursor: pointer;
+  width: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
