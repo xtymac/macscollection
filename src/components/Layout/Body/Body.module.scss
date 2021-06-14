@@ -14,12 +14,15 @@
         width: 350px;
       }
       @media (max-width: 500px) {
-        width: 200px;
+        width: 250px;
+      }
+      @media (max-width: 400px) {
+        width: 220px;
       }
     }
 
     @media (max-width: 767px) {
-      margin-top: 20vh;
+      margin-top: 25vh;
     }
 
     @media (max-width: 767px) {
@@ -27,13 +30,17 @@
     }
 
     @media (max-height: 1080px) {
-      top: 25vh;
+      top: 26vh;
     }
-    @media (max-height: 800px) {
-      top: 12vh;
+    @media (max-width: 900px) {
+      top: 30vh;
+    }
+
+    @media (max-height: 900px) {
+      top: 16vh;
     }
     @media (max-height: 600px) {
-      top: 9vh;
+      top: 10vh;
     }
   }
 
@@ -42,12 +49,12 @@
     top: 5vh;
     left: 6vw;
     @media (max-width: 767px) {
-      top: 10vh;
-      left: 0vw;
+      top: 15vh;
+      left: 2vw;
     }
     @media (max-width: 767px) and (max-height: 900px) {
       top: 130px;
-      left: 0vw;
+      left: 2vw;
     }
   }
 }
