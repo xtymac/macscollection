@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 .navbar {
   width: 100%;
   white-space: nowrap;
-  border: 1px solid #fff;
+  // border: 1px solid #fff;
   // @media (max-width: 1280px) {
   //   width: auto;
   // }
@@ -19,25 +19,22 @@
     li {
       display: inline-block;
 
-      padding: 0.5em 2%;
+      padding: 0.5em 2.4%;
       // @media (max-width: 1280px) {
       //   padding: 0.5em 2vw;
       // }
       a {
-        font-size: 1.9vmin;
+        font-size: 16px;
         @media (max-height: 799px) {
           font-size: 16px;
         }
-        @media (min-weight: 1280px) {
-          font-size: 21.7px;
-        }
         color: white;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 0.04em;
+        font-family: 'Comfortaa', cursive;
+        letter-spacing: 0.02em;
         text-decoration: none;
         transition: 0.3s ease-in-out;
         &:hover {
-          color: #fff603;
+          color: #ffee00;
           text-shadow: 0 15px 5px rgba(255, 230, 0, 0.445);
         }
       }

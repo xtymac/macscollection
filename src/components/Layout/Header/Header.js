@@ -4,10 +4,10 @@ import Navigation from './Navigation';
 
 const Header = () => {
   return (
-    <div className={classes.header}>
+    <header className={classes.header}>
       <Logo />
       <Navigation />
-    </div>
+    </header>
   );
 };
 

@@ -1,20 +1,18 @@
 import classes from './Body.module.scss';
 import slogan from '../../../assets/Logo/slogan.png';
-import ReactLogo from '../../UI/Logo/ReactLogo';
+import ReactLogo from './ReactLogo/ReactLogo';
 
-const Body = (props) => {
+const Body = () => {
   return (
     <>
-      <div>
+      <section className={classes.body}>
         <div className={classes.slogan}>
-          <div className={classes.diem}>
-            <img src={slogan} className={classes.carpe} alt="slogan" />
-          </div>
-          <div className={classes.logo}>
-            <ReactLogo />
-          </div>
+          <img src={slogan} alt="slogan" />
         </div>
-      </div>
+        <div className={classes.logo}>
+          <ReactLogo />
+        </div>
+      </section>
     </>
   );
 };

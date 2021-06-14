@@ -1,4 +1,4 @@
-import logo from '../../../assets/Logo/logo.svg';
+import logo from './logo.svg';
 import classes from './ReactLogo.module.scss';
 
 const ReactLogo = (props) => {

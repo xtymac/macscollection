@@ -1,7 +1,38 @@
 .footer {
-  display: grid;
-  place-items: center;
-  @media (max-width: 767px) {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  // border: 1px solid #fff;
+  .social {
     display: flex;
+    ul {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      list-style: none;
+      padding: 0px;
+      li {
+        padding: 1.5rem 9px;
+
+        img {
+          width: 24px;
+          @media (max: width 1280px) {
+            width: 22px;
+          }
+          @media (max: width 767px) {
+            width: 18px;
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    margin-bottom: 1vh;
+    line-height: 25px;
   }
 }

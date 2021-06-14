@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import MobileMenu from '../Header/Menu/MobileMenu';
+import MobileMenu from './MobileMenu/MobileMenu';
 import classes from './Navigation.module.scss';
 
 const Navigation = () => {
@@ -18,25 +18,25 @@ const Navigation = () => {
       <nav className={classes.navbar}>
         <ul>
           <li>
-            <a href=".">home</a>
+            <a href=".">Home</a>
           </li>
           <li>
-            <a href=".">storytelling</a>
+            <a href=".">Storytelling</a>
           </li>
           <li>
-            <a href=".">design</a>
+            <a href=".">Design</a>
           </li>
           <li>
-            <a href=".">adobeXD</a>
+            <a href=".">AdobeXD</a>
           </li>
           <li>
             <a href=".">JLPT</a>
           </li>
           <li>
-            <a href=".">photograph</a>
+            <a href=".">Photograph</a>
           </li>
           <li>
-            <a href=".">about</a>
+            <a href=".">About</a>
           </li>
         </ul>
       </nav>
