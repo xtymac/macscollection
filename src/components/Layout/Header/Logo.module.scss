@@ -2,13 +2,23 @@
 
 /* MacsCollection */
 .logo {
-  margin-top: 4rem;
+  margin-top: 4vh;
+
   a {
     text-decoration: none;
     font-family: 'Mrs Saint Delafield', cursive;
     font-style: normal;
-    font-weight: normal;
     font-size: 3.5rem;
+    @media (max-width: 400px) {
+      font-size: 3rem;
+    }
+    @media (max-width: 300px) {
+      font-size: 2.5rem;
+    }
+    @media (max-height: 800px) {
+      font-size: 3rem;
+    }
+    font-weight: normal;
     line-height: 92px;
     text-align: center;
     color: #ffffff;
@@ -17,10 +27,9 @@
     transition: all 0.3s ease-in-out;
   }
   @media (max-width: 767px) {
-    transform: scale(80%);
     float: left;
     margin-top: 3rem;
-    margin-left: 0vh;
+    margin-left: 4vw;
     white-space: nowrap;
   }
 }

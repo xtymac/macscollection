@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,8 @@
 
 html {
   background-color: #0c0c0d;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 .App {
@@ -24,13 +28,21 @@ html {
 }
 
 .App-body {
-  margin: 0 auto;
-  min-height: 100vh;
+  // margin: 0 auto;
+  height: auto;
+  font-family: 'Comfortaa', cursive;
   width: 1280px;
+  margin: auto;
   // border: 5px solid #fff;
 
   @media (max-width: 1280px) {
     width: auto;
+  }
+  @media (max-width: 767px) {
+    width: auto;
+  }
+  @media (max-height: 800px) and (min-width: 767px) {
+    width: 1080px;
   }
 }
 

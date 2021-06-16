@@ -2,6 +2,8 @@ import { useState } from 'react';
 import MobileMenu from './MobileMenu/MobileMenu';
 import classes from './Navigation.module.scss';
 
+import { Link } from 'react-router-dom';
+
 const Navigation = () => {
   const [displayMobileMenu, setDisplayMobileMenu] = useState(false);
 
@@ -18,25 +20,25 @@ const Navigation = () => {
       <nav className={classes.navbar}>
         <ul>
           <li>
-            <a href=".">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href=".">Storytelling</a>
+            <Link to="/design">Design</Link>
           </li>
           <li>
-            <a href=".">Design</a>
+            <Link to="/javascript">Javascript</Link>
           </li>
           <li>
-            <a href=".">AdobeXD</a>
+            <Link to="/reactJS">React.js</Link>
           </li>
           <li>
-            <a href=".">JLPT</a>
+            <Link to="/wordpress">Wordpress</Link>
           </li>
           <li>
-            <a href=".">Photograph</a>
+            <Link to="/adobeXD">AdobeXD</Link>
           </li>
           <li>
-            <a href=".">About</a>
+            <Link to="/about">About</Link>
           </li>
         </ul>
       </nav>
@@ -53,6 +55,7 @@ const Navigation = () => {
         </div>
       </div>
 
+      {/* toggle mobile menu */}
       {displayMobileMenu && <MobileMenu closeMenu={closeMobileMenuHandler} />}
     </>
   );

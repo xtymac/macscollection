@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import classes from './MobileMenu.module.scss';
 
+import { Link } from 'react-router-dom';
+
 const Backdrop = (props) => {
   return <div className={classes.backdrop} onClick={props.closeMenu} />;
 };
@@ -12,27 +14,27 @@ const MenuOverlay = (props) => {
       {/* mobile menu */}
       <div className={classes['mobile-menu']}>
         <nav>
-          <ul>
+          <ul onClick={props.closeMenu}>
             <li>
-              <a href=".">home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href=".">story</a>
+              <Link to="/design">Design</Link>
             </li>
             <li>
-              <a href=".">react.js</a>
+              <Link to="/javascript">JavaScript</Link>
             </li>
             <li>
-              <a href=".">wordpress</a>
+              <Link to="/reactJS">React.js</Link>
             </li>
             <li>
-              <a href=".">adobexd</a>
+              <Link to="/wordpress">Wordpress</Link>
             </li>
             <li>
-              <a href=".">photos</a>
+              <Link to="/adobeXD">AdobeXD</Link>
             </li>
             <li>
-              <a href=".">about</a>
+              <Link to="/about">About</Link>
             </li>
           </ul>
         </nav>
