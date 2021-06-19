@@ -7,7 +7,7 @@ const Body = () => {
     <>
       <section className={classes.body}>
         <div className={classes.slogan}>
-          <img id="slide" src={slogan} alt="slogan" />
+          <img src={slogan} alt="slogan" />
         </div>
         <div className={classes.logo}>
           <ReactLogo />

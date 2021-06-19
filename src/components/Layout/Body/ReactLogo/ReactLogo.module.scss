@@ -1,8 +1,11 @@
 .App-logo {
-  height: 11vmin;
+  height: 10vmin;
   pointer-events: none;
   @media (max-height: 800px) {
-    height: 10vmin;
+    height: 9vmin;
+  }
+  @media (max-width: 767px) {
+    height: 12vmin;
   }
 }
 

@@ -1,20 +1,19 @@
 .design {
   overflow: hidden;
-  padding: 50px 0;
+  padding: 45px 0 40px;
   color: white;
   height: auto;
   background-color: white;
   margin-top: 30px;
-  font-family: Graphik, Avenir Next, Helvetica Neue, Helvetica, Arial,
-    sans-serif;
+  margin-bottom: 15px;
+  color: #0c0c0d;
   .container {
-    width: 80%;
     margin: 0 auto;
+    max-width: 1024px;
     .heading {
       max-width: 600px;
       text-align: center;
-      margin: 0 auto;
-
+      margin: 0 auto 60px;
       h2 {
         font-size: 40px;
         letter-spacing: -1.1px;
@@ -23,9 +22,6 @@
     }
     ol {
       list-style: none;
-      margin: 80px 0;
-      background-color: white;
-      border: 1px solid #000000;
     }
   }
 }

@@ -2,61 +2,39 @@
 
 .body {
   position: relative;
-  height: 60vh;
-
+  height: 65vh;
+  margin: 0 auto;
+  // border: 1px solid #fff;
+  max-width: 1280px;
+  @media (max-width: 767px) {
+    height: 60vh;
+  }
   .slogan {
     position: absolute;
     bottom: 0;
-    right: 0vw;
+    right: 0;
+
+    @media (min-width: 1280px) {
+      transform: translate(15%, 0);
+      margin-right: 5%;
+    }
     img {
       width: 52vmin;
       @media (max-width: 767px) {
-        width: 65vmin;
+        width: 60vmin;
       }
-      // @media (max-width: 500px) {
-      //   width: 250px;
-      // }
-      // @media (max-width: 400px) {
-      //   width: 220px;
-      // }
     }
-
-    // @media (max-height: 700px) {
-    //   bottom: -65vh;
-    // }
-
-    // @media (max-height: 1080px) {
-    //   top: 26vh;
-    // }
-    // @media (max-width: 900px) {
-    //   top: 30vh;
-    // }
-
-    // @media (max-height: 900px) {
-    //   top: 16vh;
-    // }
-    // @media (max-height: 600px) {
-    //   top: 10vh;
-    // }
   }
-  @media (max-width: 767px) {
-    height: 50vh;
-  }
-
   .logo {
     position: absolute;
-    top: 2vh;
-    left: 2vw;
-    @media (max-width: 1100px) {
-      left: 0vw;
+    top: 2.5%;
+    left: 5%;
+    @media (max-height: 800px) and (min-width: 767px) {
+      transform: translate(80%, 50%);
     }
     @media (max-width: 767px) {
-      top: 0vh;
-      left: 0vw;
-    }
-    @media (max-height: 800px) {
-      top: 0vh;
-      left: 4vw;
+      top: 0%;
+      left: 0%;
     }
   }
 }

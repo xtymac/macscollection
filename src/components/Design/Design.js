@@ -1,5 +1,5 @@
 import classes from './Design.module.scss';
-import Placeholder from './Placeholder.svg';
+import BoxList from './BoxList';
 
 const Design = (props) => {
   return (
@@ -11,20 +11,13 @@ const Design = (props) => {
           </div>
           <div className={classes.content}>
             <ol>
-              <li>
-                <div className={classes.video}>
-                  <img src={Placeholder} alt="placeholder" />
-                </div>
-                <div className={classes.description}>
-                  <h3>Lorem ipsum dolor sit</h3>
-                  <div className={classes.blurb}>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Fermentum pulvinar ultrices.
-                    </p>
-                  </div>
-                </div>
-              </li>
+              <BoxList>
+                <h3>Lorem ipsum dolor sit</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Fermentum pulvinar ultrices.
+                </p>
+              </BoxList>
             </ol>
           </div>
         </div>

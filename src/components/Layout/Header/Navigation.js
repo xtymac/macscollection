@@ -1,20 +1,8 @@
-import { useState } from 'react';
-import MobileMenu from './MobileMenu/MobileMenu';
 import classes from './Navigation.module.scss';
 
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
-  const [displayMobileMenu, setDisplayMobileMenu] = useState(false);
-
-  const displayMobileMenuHandler = () => {
-    setDisplayMobileMenu(true);
-  };
-
-  const closeMobileMenuHandler = () => {
-    setDisplayMobileMenu(false);
-  };
-
   return (
     <>
       <nav className={classes.navbar}>
@@ -42,21 +30,6 @@ const Navigation = () => {
           </li>
         </ul>
       </nav>
-
-      {/* mobile menu icon */}
-      <div
-        className={classes['menu__wrapper']}
-        onClick={displayMobileMenuHandler}
-      >
-        <div className={classes['menu__item--meatball']} tabindex="5">
-          <div className={classes.circle}></div>
-          <div className={classes.circle}></div>
-          <div className={classes.circle}></div>
-        </div>
-      </div>
-
-      {/* toggle mobile menu */}
-      {displayMobileMenu && <MobileMenu closeMenu={closeMobileMenuHandler} />}
     </>
   );
 };
