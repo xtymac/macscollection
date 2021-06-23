@@ -1,27 +1,30 @@
 .design {
-  overflow: hidden;
-  padding: 45px 0 40px;
-  color: white;
-  height: auto;
+  // overflow: hidden;
+  padding: 45px 0;
+  color: #0c0c0d;
   background-color: white;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 15px;
   color: #0c0c0d;
   .container {
     margin: 0 auto;
-    max-width: 1024px;
+    max-width: 1280px;
     .heading {
-      max-width: 600px;
       text-align: center;
-      margin: 0 auto 60px;
+
       h2 {
-        font-size: 40px;
+        margin-top: 15px;
+        font-size: 4rem;
         letter-spacing: -1.1px;
         font-weight: 600;
       }
     }
     ol {
+      padding: 0;
       list-style: none;
+      .boxList {
+        margin: 60px auto 80px auto;
+      }
     }
   }
 }

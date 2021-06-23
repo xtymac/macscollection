@@ -3,13 +3,15 @@ import Header from './components/Layout/Header/Header';
 import Body from './components/Layout/Body/Body';
 import Footer from './components/Layout/Footer/Footer';
 
-import About from './components/About/About';
+// Pages
+import More from './components/More/More';
 import AdobeXD from './components/AdobeXD/AdobeXD';
 import Design from './components/Design/Design';
-import JavaScript from './components/JavaScript/JavaScript';
 import ReactJS from './components/ReactJS/ReactJS';
-import Wordpress from './components/Wordpress/Wordpress';
+import AimilyApp from './components/AimilyApp/AimilyApp';
+import MLB101 from './components/MLB101/MLB101';
 
+// Libraries
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -19,12 +21,12 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact component={Body} />
-          <Route path="/design" component={Design} />
-          <Route path="/JavaScript" component={JavaScript} />
+          <Route path="/Design" component={Design} />
           <Route path="/ReactJS" component={ReactJS} />
-          <Route path="/Wordpress" component={Wordpress} />
+          <Route path="/AimilyApp" component={AimilyApp} />
+          <Route path="/MLB101" component={MLB101} />
           <Route path="/AdobeXD" component={AdobeXD} />
-          <Route path="/about" component={About} />
+          <Route path="/More" component={More} />
         </Switch>
         <Footer />
       </div>

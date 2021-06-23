@@ -1,3 +1,5 @@
+import classes from './ReactJS.module.scss';
+
 const ReactJS = (props) => {
   return (
     <div>

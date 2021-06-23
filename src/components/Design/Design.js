@@ -1,7 +1,9 @@
 import classes from './Design.module.scss';
-import BoxList from './BoxList';
+import BoxListLeft from './BoxList/BoxListLeft';
+import BoxListRight from './BoxList/BoxListRight';
+import Sample from './Video/Sample.mp4';
 
-const Design = (props) => {
+const Design = () => {
   return (
     <>
       <section className={classes.design}>
@@ -11,13 +13,21 @@ const Design = (props) => {
           </div>
           <div className={classes.content}>
             <ol>
-              <BoxList>
+              <BoxListLeft className={classes.boxList} videoSrc={Sample}>
                 <h3>Lorem ipsum dolor sit</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Fermentum pulvinar ultrices.
                 </p>
-              </BoxList>
+              </BoxListLeft>
+
+              <BoxListRight className={classes.boxList} videoSrc={Sample}>
+                <h3>Lorem ipsum dolor sit</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Fermentum pulvinar ultrices.
+                </p>
+              </BoxListRight>
             </ol>
           </div>
         </div>
