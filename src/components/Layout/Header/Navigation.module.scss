@@ -4,7 +4,7 @@
   white-space: nowrap;
   z-index: 1000;
   // border: 1px solid #ffee00;
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     display: none;
   }
 
@@ -25,7 +25,6 @@
         transition: all 0.3s ease-in-out;
         &:hover {
           color: #ffee00;
-          font-weight: 600;
           text-shadow: 0 15px 5px rgba(255, 230, 0, 0.445);
         }
       }

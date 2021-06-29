@@ -16,16 +16,16 @@ const Navigation = () => {
             <Link to="/ReactJS">React.js</Link>
           </li>
           <li>
-            <Link to="/AimilyApp">AimilyApp</Link>
+            <Link to="/ReactNative">React Native</Link>
           </li>
           <li>
-            <Link to="/MLB101">MLB101</Link>
+            <Link to="/Unity3D">Unity3D</Link>
           </li>
           <li>
             <Link to="/AdobeXD">AdobeXD</Link>
           </li>
           <li>
-            <Link to="/More">More</Link>
+            <Link to="/About">About</Link>
           </li>
         </ul>
       </nav>

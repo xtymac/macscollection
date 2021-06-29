@@ -1,0 +1,40 @@
+.subtitle {
+  margin: 8rem auto;
+}
+
+.feature {
+  padding: 2rem 0;
+  color: #0c0c0d;
+  background-color: white;
+  height: auto;
+
+  .container {
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  .boxLists {
+    margin: 0 auto;
+    max-width: 1280px;
+    // border: 1px solid black;
+    ol {
+      padding: 0;
+      list-style: none;
+      .boxList {
+        margin: 9rem auto 10rem;
+        // border: none;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+        // padding: 0;
+        @media (max-width: 768px) {
+          margin: 6rem auto;
+        }
+      }
+    }
+  }
+  .download {
+    width: 1280px;
+    margin: 0 auto;
+    @media (max-width: 1280px) {
+      width: auto;
+    }
+  }
+}

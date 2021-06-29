@@ -6,7 +6,7 @@ const MobileMenuIcon = (props) => {
   return (
     <>
       <div className={styles} onClick={props.openMenu}>
-        <div className={classes['menu__item--meatball']} tabindex="5">
+        <div className={classes['menu__item--meatball']} tabIndex="5">
           <div className={classes.circle}></div>
           <div className={classes.circle}></div>
           <div className={classes.circle}></div>

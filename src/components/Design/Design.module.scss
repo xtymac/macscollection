@@ -1,27 +1,22 @@
+.subtitle {
+  margin: 4rem auto;
+}
+
 .design {
   // overflow: hidden;
-  padding: 45px 0;
+  padding: 4rem 0;
   color: #0c0c0d;
   background-color: white;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  color: #0c0c0d;
-  .container {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  .boxLists {
     margin: 0 auto;
     max-width: 1280px;
-    .heading {
-      text-align: center;
-
-      h2 {
-        margin-top: 15px;
-        font-size: 4rem;
-        letter-spacing: -1.1px;
-        font-weight: 600;
-      }
-    }
-    ol {
+    ol li {
+      margin: 0;
       padding: 0;
-      list-style: none;
+      list-style-type: none;
+      padding-inline-start: 0;
       .boxList {
         margin: 60px auto 80px auto;
       }
