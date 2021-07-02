@@ -1,33 +1,16 @@
 import classes from './Unity3D.module.scss';
-import MLBLogo from './IMG/MLB_Logo.png';
-import ShowCase from './Video/ShowCase.mp4';
+import Showcase from './components/Showcase/Showcase';
+import Banner from './components/Showcase/Banner';
 
 const Unity3D = (props) => {
   return (
     <>
       <div className={classes.reminder}>
-        <p>This a student work for demo and portfolio purposes only.</p>
+        <p>This project is for demo and potfolio purpose only</p>
       </div>
       <section className={classes.mlb}>
-        <div className={classes.showcase}>
-          <div className={classes.background}>
-            <video
-              src={ShowCase}
-              onContextMenu={(event) => event.preventDefault()}
-              loop
-              autoPlay
-              muted
-              playsInline
-            />
-          </div>
-
-          <div className={classes.heading}>
-            <h1>BASEBALL</h1>
-            <h1>101</h1>
-            <h6>Present by</h6>
-            <img src={MLBLogo} alt={MLBLogo} />
-          </div>
-        </div>
+        <Showcase />
+        <Banner />
       </section>
     </>
   );

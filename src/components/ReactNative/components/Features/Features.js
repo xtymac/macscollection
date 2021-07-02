@@ -21,7 +21,8 @@ const Features = () => {
               <h3>Lorem ipsum dolor sit</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Fermentum pulvinar ultrices.
+                Fermentum pulvinar ultrices.Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Fermentum pulvinar ultrices.
               </p>
             </BoxListLeft>
 
@@ -29,7 +30,8 @@ const Features = () => {
               <h3>Lorem ipsum dolor sit</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Fermentum pulvinar ultrices.
+                Fermentum pulvinar ultrices.Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Fermentum pulvinar ultrices.
               </p>
             </BoxListRight>
 
@@ -37,7 +39,8 @@ const Features = () => {
               <h3>Lorem ipsum dolor sit</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Fermentum pulvinar ultrices.
+                Fermentum pulvinar ultrices.Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Fermentum pulvinar ultrices.
               </p>
             </BoxListLeft>
 
@@ -45,7 +48,8 @@ const Features = () => {
               <h3>Lorem ipsum dolor sit</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Fermentum pulvinar ultrices.
+                Fermentum pulvinar ultrices.Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Fermentum pulvinar ultrices.
               </p>
             </BoxListRight>
           </ol>

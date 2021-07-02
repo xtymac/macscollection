@@ -1,64 +1,77 @@
 .boxList {
-  position: relative;
-  width: 80%;
-  min-width: 900px;
-  height: 280px;
-  border: 1px solid #000000;
   display: flex;
-  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
-  @media (max-width: 918px) {
-    width: 85%;
-    min-width: 200px;
-    max-width: 500px;
-    min-height: 500px;
-  }
-  @media (max-width: 400px) {
-    min-height: 470px;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90vw;
+  max-width: 1200px;
+  @media (max-width: 980px) {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
   }
   .video {
     video {
+      //! 3D Transform
+      transform: perspective(1500px) rotateY(15deg);
+      border-radius: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.6) 0px 15px 50px -12px;
+      transition: all 1s ease 0s;
+      &:hover {
+        transform: perspective(3000px) rotateY(5deg);
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 50px -12px;
+      }
+      // Basic Properties
       flex: 1;
-      z-index: 1;
       justify-content: center;
-      @media (max-width: 918px) {
-        position: absolute;
-        margin: 0 auto 10px;
-        width: 93%;
-        bottom: 0;
-        left: 0;
-        right: 0;
+      width: 100%;
+      @media (max-width: 980px) {
+        margin: 0 auto;
+        //! 3D Transform
+        transform: perspective(600px) rotateX(5deg);
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.6) 0px 10px 50px -12px;
       }
     }
   }
-
   .description {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    //! distance between video and text
+    margin: 2rem 1.5vw 0 5vw;
+    max-width: 50%;
     text-align: right;
-    margin-left: 5%;
-    margin-right: 4%;
-    box-sizing: border-box;
-    @media (max-width: 918px) {
-      margin: 0 auto;
+    @media (max-width: 980px) {
+      align-items: flex-end;
+      justify-content: center;
       text-align: center;
+      //! distance between video and text
+      margin: 6em auto 0;
+      width: 100%;
+      max-width: 460px;
     }
     h3 {
+      display: flex;
       font-size: 4rem;
       letter-spacing: -0.02px;
       font-weight: 600;
       line-height: 1.375;
-      margin: 25px 0 10px 0;
-      @media (max-width: 918px) {
-        margin: 30px 40px 20px;
-        font-size: 4rem;
+      //! distance between title and paragraph
+      margin-bottom: 1.5rem;
+      align-self: flex-end;
+      word-wrap: break-word;
+      @media (max-width: 980px) {
+        align-self: center;
       }
     }
     p {
-      word-wrap: break-word;
+      display: flex;
       font-size: 2rem;
       font-weight: 500;
-      margin: 0 0 0px;
-      @media (max-width: 918px) {
-        margin: 0 20px;
+      align-self: flex-end;
+      word-wrap: break-word;
+      @media (max-width: 980px) {
+        align-self: center;
       }
     }
   }

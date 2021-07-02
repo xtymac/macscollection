@@ -7,12 +7,10 @@
   @media (max-width: 768px) {
     display: none;
   }
-
   ul {
     cursor: pointer;
     list-style: none;
     padding: 0;
-
     li {
       display: inline-block;
       margin: 0.5% 2.5%;
@@ -25,6 +23,7 @@
         transition: all 0.3s ease-in-out;
         &:hover {
           color: #ffee00;
+          font-weight: 600;
           text-shadow: 0 15px 5px rgba(255, 230, 0, 0.445);
         }
       }

@@ -3,7 +3,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   z-index: 30;
   background-color: rgba(0, 0, 0, 0.75);
@@ -57,7 +57,7 @@
   }
 }
 
-// Mobile Menu Icon
+//! Mobile Menu Icon
 .circle {
   width: 10px;
   height: 10px;

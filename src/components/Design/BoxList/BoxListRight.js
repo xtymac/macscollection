@@ -7,6 +7,7 @@ const BoxListRight = (props) => {
     <>
       <li className={styles}>
         <div className={classes.description}>{props.children}</div>
+
         <div className={classes.video}>
           <video
             src={props.videoSrc}
@@ -15,9 +16,7 @@ const BoxListRight = (props) => {
             autoPlay
             muted
             playsInline
-          >
-            <source src={props.videoSrc} type="video/mp4" />
-          </video>
+          />
         </div>
       </li>
     </>

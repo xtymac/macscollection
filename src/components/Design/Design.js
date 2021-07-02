@@ -12,25 +12,32 @@ const Design = () => {
           <Subtitle className={classes.subtitle}>Features</Subtitle>
           <div className={classes.boxLists}>
             <ol>
-              <li>
-                <BoxListLeft className={classes.boxList} videoSrc={Sample}>
-                  <h3>Lorem ipsum dolor sit</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Fermentum pulvinar ultrices.
-                  </p>
-                </BoxListLeft>
-              </li>
+              <BoxListLeft className={classes.boxList} videoSrc={Sample}>
+                <h3>Lorem ipsum dolor sit</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Fermentum pulvinar ultrices. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Fermentum pulvinar ultrices.
+                </p>
+              </BoxListLeft>
 
-              <li>
-                <BoxListRight className={classes.boxList} videoSrc={Sample}>
-                  <h3>Lorem ipsum dolor sit</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Fermentum pulvinar ultrices.
-                  </p>
-                </BoxListRight>
-              </li>
+              <BoxListRight className={classes.boxList} videoSrc={Sample}>
+                <h3>Lorem ipsum dolor sit</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Fermentum pulvinar ultrices. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Fermentum pulvinar ultrices.
+                </p>
+              </BoxListRight>
+
+              <BoxListLeft className={classes.boxList} videoSrc={Sample}>
+                <h3>Lorem ipsum dolor sit</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Fermentum pulvinar ultrices. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Fermentum pulvinar ultrices.
+                </p>
+              </BoxListLeft>
             </ol>
           </div>
         </div>
