@@ -1,15 +1,13 @@
 import './App.scss';
-import Header from './components/Layout/Header/Header';
-import Body from './components/Layout/Body/Body';
-import Footer from './components/Layout/Footer/Footer';
+import Header from './components/Home/Header/Header';
+import Body from './components/Home/Body/Body';
+import Footer from './components/Home/Footer/Footer';
 
 // Pages
+import WebDesign from './components/WebDesign/WebDesign';
+import MobileApp from './components/MobileApp/MobileApp';
+import UnityProject from './components/UnityProject/UnityProject';
 import About from './components/About/About';
-import AdobeXD from './components/AdobeXD/AdobeXD';
-import Design from './components/Design/Design';
-import ReactJS from './components/ReactJS/ReactJS';
-import ReactNative from './components/ReactNative/ReactNative';
-import Unity3D from './components/Unity3D/Unity3D';
 
 // Libraries
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -21,11 +19,9 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact component={Body} />
-          <Route path="/Design" component={Design} />
-          <Route path="/ReactJS" component={ReactJS} />
-          <Route path="/ReactNative" component={ReactNative} />
-          <Route path="/Unity3D" component={Unity3D} />
-          <Route path="/AdobeXD" component={AdobeXD} />
+          <Route path="/WebDesign" component={WebDesign} />
+          <Route path="/MobileApp" component={MobileApp} />
+          <Route path="/UnityProject" component={UnityProject} />
           <Route path="/About" component={About} />
         </Switch>
         <Footer />

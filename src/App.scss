@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
@@ -23,7 +23,6 @@ html {
   // height: 100vh;
   font-family: Graphik, Avenir Next, Helvetica Neue, Helvetica, Arial,
     sans-serif;
-  box-sizing: border-box;
   @media (max-width: 1280px) {
     width: auto;
   }

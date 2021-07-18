@@ -1,0 +1,35 @@
+// .subtitle {
+//   margin-top: 8rem;
+// }
+
+.reactNative_feature {
+  padding: 1rem 0;
+  color: #0c0c0d;
+  background-color: white;
+  height: auto;
+
+  .reactNative_container {
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  .reactNative_boxLists {
+    margin: 0 auto;
+    max-width: 1280px;
+    .reactNative_orderList {
+      padding: 0;
+      list-style: none;
+      .reactNative_boxList {
+        //! Space between boxes
+        margin: 60px auto 80px;
+        color: black;
+      }
+    }
+  }
+  .reactNative_download {
+    width: 1280px;
+    margin: 0 auto;
+    @media (max-width: 1280px) {
+      width: auto;
+    }
+  }
+}

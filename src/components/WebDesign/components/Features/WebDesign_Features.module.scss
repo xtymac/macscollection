@@ -1,0 +1,15 @@
+.features_boxLists {
+  margin: 0 auto;
+  max-width: 1280px;
+  .features_boxLists_orderList {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-inline-start: 0;
+    .features_boxLists_boxList {
+      //! distance between BoxLists
+      margin: 60px auto 80px;
+      color: black;
+    }
+  }
+}

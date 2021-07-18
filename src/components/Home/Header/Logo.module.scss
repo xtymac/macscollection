@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+
+/* MacsCollection */
+.logo {
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 0.4%;
+    font-family: 'Mrs Saint Delafield', cursive;
+    color: white;
+    white-space: nowrap;
+    font-style: normal;
+    font-size: 5.5rem;
+    transition: all 0.3s ease-in-out;
+    @media (max-width: 768px) {
+      font-size: 5.6rem;
+    }
+  }
+}

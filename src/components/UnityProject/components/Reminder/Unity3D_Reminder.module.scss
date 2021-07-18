@@ -1,0 +1,26 @@
+.unity3d_reminder {
+  background-color: #ffee00;
+  width: 100%;
+  display: block;
+  height: auto;
+  text-align: center;
+  margin: 0;
+  backface-visibility: hidden;
+  .unity3d_reminder_text {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    color: #0c0c0d;
+  }
+  animation: fadeIn 1s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
