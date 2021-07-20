@@ -1,0 +1,20 @@
+.ac_block_title {
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 4rem auto;
+  @media (max-width: 768px) {
+    font-size: 3.5rem;
+  }
+}
+.ac_block_description {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  line-height: 4rem;
+}
+
+.ac_block_2 {
+  margin-top: 3rem;
+  img {
+    transform: scale(110%);
+  }
+}

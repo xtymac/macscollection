@@ -2,7 +2,11 @@ import classes from './Unity3D_Features.module.scss';
 import Subtitle from '../../../../Layout/Title/Subtitle';
 import BoxListLeft from '../../../../Layout/BoxList/BoxListLeft';
 import BoxListRight from '../../../../Layout/BoxList/BoxListRight';
+
 import Sample from '../../../../assets/video/Sample.mp4';
+import MLB_1 from '../../Video/MLB_1.mov';
+import MLB_2 from '../../Video/MLB_2.mov';
+import MLB_3 from '../../Video/MLB_3.mov';
 
 const Unity3D_Features = (props) => {
   return (
@@ -15,7 +19,7 @@ const Unity3D_Features = (props) => {
           <ol>
             <BoxListLeft
               className={classes.unity3d_features_boxList}
-              videoSrc={Sample}
+              videoSrc={MLB_1}
             >
               <h3>Lorem ipsum dolor sit</h3>
               <p>
@@ -27,7 +31,7 @@ const Unity3D_Features = (props) => {
 
             <BoxListRight
               className={classes.unity3d_features_boxList}
-              videoSrc={Sample}
+              videoSrc={MLB_2}
             >
               <h3>Lorem ipsum dolor sit</h3>
               <p>
@@ -39,7 +43,7 @@ const Unity3D_Features = (props) => {
 
             <BoxListLeft
               className={classes.unity3d_features_boxList}
-              videoSrc={Sample}
+              videoSrc={MLB_3}
             >
               <h3>Lorem ipsum dolor sit</h3>
               <p>

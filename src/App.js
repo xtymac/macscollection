@@ -7,7 +7,7 @@ import Footer from './components/Home/Footer/Footer';
 import WebDesign from './components/WebDesign/WebDesign';
 import MobileApp from './components/MobileApp/MobileApp';
 import UnityProject from './components/UnityProject/UnityProject';
-import About from './components/About/About';
+import AboutMe from './components/AboutMe/AboutMe';
 
 // Libraries
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -22,7 +22,7 @@ function App() {
           <Route path="/WebDesign" component={WebDesign} />
           <Route path="/MobileApp" component={MobileApp} />
           <Route path="/UnityProject" component={UnityProject} />
-          <Route path="/About" component={About} />
+          <Route path="/AboutMe" component={AboutMe} />
         </Switch>
         <Footer />
       </div>

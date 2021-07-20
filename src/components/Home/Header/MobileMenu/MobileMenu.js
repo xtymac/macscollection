@@ -27,7 +27,7 @@ const MenuOverlay = (props) => {
               <Link to="/UnityProject">Unity Project</Link>
             </li>
             <li>
-              <Link to="/About">About Me</Link>
+              <Link to="/AboutMe">About Me</Link>
             </li>
           </ul>
         </nav>

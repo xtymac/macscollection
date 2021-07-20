@@ -26,11 +26,11 @@ const MobileApp_Features = () => {
               className={classes.reactNative_boxList}
               videoSrc={AIMILY_1}
             >
-              <h3>Lorem ipsum dolor sit</h3>
+              <h3>Make your goal smart</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Fermentum pulvinar ultrices.Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Fermentum pulvinar ultrices.
+                In just a few clicks, you are able to set your first SMART goal.
+                Be sure to make it Specific, Measurable, Achievable, Realistic,
+                and Timely.
               </p>
             </BoxListLeft>
 
@@ -38,11 +38,11 @@ const MobileApp_Features = () => {
               className={classes.reactNative_boxList}
               videoSrc={AIMILY_2}
             >
-              <h3>Lorem ipsum dolor sit</h3>
+              <h3>Low effort, high impact</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Fermentum pulvinar ultrices.Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Fermentum pulvinar ultrices.
+                Our goal achievement process allows you to divide your goal into
+                a todo-list. By cross them off from the list, you are able to
+                master the progress of your master plan.
               </p>
             </BoxListRight>
 
@@ -50,11 +50,12 @@ const MobileApp_Features = () => {
               className={classes.reactNative_boxList}
               videoSrc={AIMILY_3}
             >
-              <h3>Lorem ipsum dolor sit</h3>
+              <h3>See your progress, lively</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Fermentum pulvinar ultrices.Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Fermentum pulvinar ultrices.
+                The mini progress bar is always there, measuring your progress.
+                Once you swape off any of the tasks on the list, it will update
+                automatically. Once you checked all of them. Congratulation! You
+                have just reached one goal.
               </p>
             </BoxListLeft>
 
@@ -62,11 +63,12 @@ const MobileApp_Features = () => {
               className={classes.reactNative_boxList}
               videoSrc={AIMILY_4}
             >
-              <h3>Lorem ipsum dolor sit</h3>
+              <h3>Let us support you</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Fermentum pulvinar ultrices.Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Fermentum pulvinar ultrices.
+                Having trouble sticking the plan individually? We have weekly
+                meetings and monthly workshops to motivate you. Come and share
+                what you have accomplished so far and what next steps you are
+                going to take.
               </p>
             </BoxListRight>
           </ol>
