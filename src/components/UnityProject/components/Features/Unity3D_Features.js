@@ -7,6 +7,7 @@ import Sample from '../../../../assets/video/Sample.mp4';
 import MLB_1 from '../../Video/MLB_1.mov';
 import MLB_2 from '../../Video/MLB_2.mov';
 import MLB_3 from '../../Video/MLB_3.mov';
+import MLB_4 from '../../Video/MLB_4.mov';
 
 const Unity3D_Features = (props) => {
   return (
@@ -21,11 +22,11 @@ const Unity3D_Features = (props) => {
               className={classes.unity3d_features_boxList}
               videoSrc={MLB_1}
             >
-              <h3>Lorem ipsum dolor sit</h3>
+              <h3>Full Animation Characters</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Fermentum pulvinar ultrices. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Fermentum pulvinar ultrices.
+                Each player on the field has been fully animated under the
+                instruction of professional. The realtime movement makes the
+                experience much more intuitive.
               </p>
             </BoxListLeft>
 
@@ -33,11 +34,10 @@ const Unity3D_Features = (props) => {
               className={classes.unity3d_features_boxList}
               videoSrc={MLB_2}
             >
-              <h3>Lorem ipsum dolor sit</h3>
+              <h3>Smooth Camera Movement</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Fermentum pulvinar ultrices. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Fermentum pulvinar ultrices.
+                Each camera movement, timeline transition has been carefully
+                calibrated in order to match the tension of the baseball game.
               </p>
             </BoxListRight>
 
@@ -45,13 +45,25 @@ const Unity3D_Features = (props) => {
               className={classes.unity3d_features_boxList}
               videoSrc={MLB_3}
             >
-              <h3>Lorem ipsum dolor sit</h3>
+              <h3>Responsive UI Components</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Fermentum pulvinar ultrices. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Fermentum pulvinar ultrices.
+                The user interfaces of this assignment is designed to match the
+                color scheme and visual element. They are also responsive in
+                adapting various screen sizes.
               </p>
             </BoxListLeft>
+
+            <BoxListRight
+              className={classes.unity3d_features_boxList}
+              videoSrc={MLB_4}
+            >
+              <h3>Quick Rewind</h3>
+              <p>
+                After the first round of using the application, Quick Rewind is
+                activated automatically. In this mode, transitions are skipped
+                so that users can go through the experience at a fast pace.
+              </p>
+            </BoxListRight>
           </ol>
         </div>
       </div>

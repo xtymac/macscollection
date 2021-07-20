@@ -5,7 +5,7 @@ import PLACEHOLDER_IMG from './image/Showcase_Placeholder.png';
 import ContentBlock from './components/ContentBlock/AboutMe_ContentBlock';
 import ShowcaseImage from '../../Layout/Showcase/Showcase_image';
 import Introduction from './components/Introduction/AboutMe_Introduction';
-import HIREME from './components/HireMe/AboutMe_HireMe';
+import HireMe from './components/HireMe/AboutMe_HireMe';
 
 const AboutMe = () => {
   return (
@@ -17,7 +17,7 @@ const AboutMe = () => {
 
         <ContentBlock />
 
-        <HIREME />
+        <HireMe />
       </section>
       <div className={classes.AboutMe_BottomLine} />
     </>

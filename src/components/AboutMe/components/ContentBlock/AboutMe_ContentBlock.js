@@ -11,7 +11,7 @@ const AboutMe_ContentBlock = () => {
       <div className={classes.ac_container}>
         <ContentBlock
           imgSrc={UIUXDESIGN}
-          alt={'Illustrate of uiux design'}
+          alt={'Illustrate of UIUX Design'}
           className={classes.ac_block_1}
         >
           <div className={classes.ac_block_title}>
@@ -28,7 +28,7 @@ const AboutMe_ContentBlock = () => {
 
         <ContentBlock
           imgSrc={PROJECTMANAGEMENT}
-          alt={'Illustrate of uiux design'}
+          alt={'Illustrate of Time Management'}
           className={classes.ac_block_2}
         >
           <div className={classes.ac_block_title}>Time matters the most</div>
@@ -43,7 +43,7 @@ const AboutMe_ContentBlock = () => {
 
         <ContentBlock
           imgSrc={QUALITY}
-          alt={'Illustrate of uiux design'}
+          alt={'Illustrate of Hand Made'}
           className={classes.ac_block_3}
         >
           <div className={classes.ac_block_title}>
