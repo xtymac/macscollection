@@ -1,0 +1,55 @@
+.reactNative_showcase {
+  width: 1280px;
+  position: relative;
+  margin: 0 auto;
+  height: 550px;
+  background-color: #74a997;
+  @media (max-width: 1280px) {
+    width: auto;
+    height: 500px;
+  }
+  @media (max-width: 768px) {
+    height: 290px;
+  }
+  .reactNative_showcase_image {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
+    .reactNative_showcase_image_svgLogo {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin: 1rem;
+      .reactNative_showcase_image_svgLogo_img {
+        width: 6rem;
+        @media (max-width: 768px) {
+          width: 5rem;
+        }
+      }
+    }
+    .reactNative_showcase_image_screenshots {
+      // display: inline;
+      overflow: hidden;
+      overflow-x: auto;
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 0;
+      .reactNative_showcase_image_screenshots_img {
+        width: 100rem;
+        margin: 0 1rem;
+        @media (max-width: 1280px) {
+          width: 90rem;
+        }
+        @media (max-width: 768px) {
+          width: 50rem;
+        }
+      }
+    }
+  }
+}

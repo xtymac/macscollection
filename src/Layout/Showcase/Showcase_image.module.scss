@@ -1,0 +1,20 @@
+.showcase_image {
+  background-color: #0c0c0d;
+  text-align: center;
+
+  .si_container {
+    border: 1px solid white;
+    .si_container_img {
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      height: auto;
+      border: 1px solid white;
+      @media (max-width: 768px) {
+        width: 200vw;
+        overflow: hidden;
+        transform: translateX(-20%);
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.unity3d_banner {
+  position: relative;
+  // width: 1280px;
+  //! distance from Showcase
+  margin: -20vh auto 0;
+  z-index: 0;
+  @media (max-width: 1280px) {
+    margin-top: -10rem;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: -6rem;
+  }
+  .unity3d_banner_video {
+    width: 100vw;
+    @media (max-width: 768px) {
+      width: 100vw;
+    }
+  }
+}
+
+.unity3d_slogan {
+  display: block;
+  color: white;
+  margin: 15rem auto 2rem;
+  text-align: center;
+  width: 100%;
+  @media (max-width: 768px) {
+    margin: 10vh auto 0rem;
+    width: 80%;
+  }
+  .unity3d_slogan_text {
+    font-size: 3.2rem;
+    line-height: 5rem;
+  }
+  .unity3d_slogan_goggle {
+    display: block;
+    margin-bottom: -5rem;
+    .unity3d_slogan_goggle_img {
+      width: 5rem;
+      margin-top: 3rem;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.aboutMe_HireMe {
+  display: block;
+  margin: 10rem auto 2.5rem;
+  .ah_container {
+    position: relative;
+    background-image: url(../../image/Japan.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1280px;
+    @media (max-width: 1280px) {
+      width: auto;
+    }
+    @media (max-width: 768px) {
+      width: 80%;
+    }
+    height: 75rem;
+    margin: 0 auto;
+    border: 1px solid black;
+
+    a {
+      color: inherit;
+    }
+
+    .ah_text {
+      cursor: pointer;
+      position: absolute;
+      top: 46%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 100%;
+      .ah_title {
+        font-size: 6rem;
+        font-weight: 500;
+      }
+      .ah_subtitle {
+        font-size: 3rem;
+        font-weight: 500;
+      }
+    }
+    .ah_LinkedIn {
+      cursor: pointer;
+      position: absolute;
+      top: 58%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      width: 12rem;
+    }
+  }
+}

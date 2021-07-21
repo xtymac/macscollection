@@ -1,0 +1,42 @@
+.aboutMe_ContentBlock {
+  //! Distance from last section
+  // padding-top: 2rem;
+  background-color: #fff;
+
+  .ac_block_1,
+  .ac_block_3 {
+    margin-top: 2.5rem;
+    img {
+      width: 60rem;
+      margin-top: 5rem;
+      @media (max-width: 768px) {
+        width: 100vw;
+      }
+    }
+  }
+
+  .ac_block_2 {
+    margin-top: 2.5rem;
+    img {
+      width: 65rem;
+      margin-top: 5rem;
+      @media (max-width: 768px) {
+        width: 115vw;
+      }
+    }
+  }
+
+  .ac_block_title {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 4.2rem auto;
+    @media (max-width: 768px) {
+      font-size: 3.5rem;
+    }
+  }
+  .ac_block_description {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    line-height: 4rem;
+  }
+}

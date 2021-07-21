@@ -1,0 +1,21 @@
+.unity3d_features_subtitle {
+  //! distance between last component
+  margin: 0rem auto 15rem;
+  color: white;
+}
+
+.unity3d_features_boxLists {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding-bottom: 4rem;
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-inline-start: 0;
+    .unity3d_features_boxList {
+      margin: 60px auto 80px auto;
+      color: white;
+    }
+  }
+}

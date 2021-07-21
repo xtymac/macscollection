@@ -1,0 +1,22 @@
+.App-logo {
+  height: 8vmin;
+  pointer-events: none;
+  @media (max-width: 768px), (max-height: 600px) {
+    height: 50px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

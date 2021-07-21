@@ -1,29 +1,32 @@
-import { Fragment } from 'react';
-import logo from './logo.svg';
 import './App.scss';
-import Header from './components/Layout/Header/Header';
+import Header from './components/Home/Header/Header';
+import Body from './components/Home/Body/Body';
+import Footer from './components/Home/Footer/Footer';
+
+// Pages
+import WebDesign from './components/WebDesign/WebDesign';
+import MobileApp from './components/MobileApp/MobileApp';
+import UnityProject from './components/UnityProject/UnityProject';
+import AboutMe from './components/AboutMe/AboutMe';
+
+// Libraries
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Fragment>
-      <Header />
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+    <Router>
+      <div className="App-body">
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Body} />
+          <Route path="/WebDesign" component={WebDesign} />
+          <Route path="/MobileApp" component={MobileApp} />
+          <Route path="/UnityProject" component={UnityProject} />
+          <Route path="/AboutMe" component={AboutMe} />
+        </Switch>
+        <Footer />
       </div>
-    </Fragment>
+    </Router>
   );
 }
 
