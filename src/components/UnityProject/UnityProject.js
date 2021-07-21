@@ -18,7 +18,7 @@ const UnityProject = (props) => {
         <ContentBlock />
         <CTA />
       </div>
-      <div className={classes.UnityProject_BottomLine} />
+      <div className={classes.unityProject_BottomLine} />
     </>
   );
 };

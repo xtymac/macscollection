@@ -20,7 +20,9 @@ const Unity3D_Features = (props) => {
           <ol>
             <BoxListLeft
               className={classes.unity3d_features_boxList}
-              videoSrc={MLB_1}
+              videoSrc={
+                'https://macscollection.s3.ap-northeast-1.amazonaws.com/Video/UnityProject/MLB_1.mov'
+              }
             >
               <h3>Full Animation Characters</h3>
               <p>
