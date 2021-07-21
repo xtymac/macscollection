@@ -18,6 +18,7 @@ const WebDesign = () => {
           <WebDesignFeatures />
         </section>
       </section>
+      <div className={classes.webDesign_BottomLine} />
     </>
   );
 };

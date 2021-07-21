@@ -19,7 +19,7 @@ const AboutMe = () => {
 
         <HireMe />
       </section>
-      <div className={classes.AboutMe_BottomLine} />
+      <div className={classes.aboutMe_BottomLine} />
     </>
   );
 };
