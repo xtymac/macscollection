@@ -1,5 +1,4 @@
 import classes from './Unity3D_Banner.module.scss';
-import OPENING from '../../../Video/Opening.mov';
 import GOGGLE from '../../../image/goggle.svg';
 
 const Unity3D_Banner = () => {
@@ -8,7 +7,9 @@ const Unity3D_Banner = () => {
       <div className={classes.unity3d_banner}>
         <video
           className={classes.unity3d_banner_video}
-          src={OPENING}
+          src={
+            'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/Opening.mov'
+          }
           onContextMenu={(event) => event.preventDefault()}
           loop
           autoPlay

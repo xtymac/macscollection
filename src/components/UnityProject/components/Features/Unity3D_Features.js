@@ -3,12 +3,6 @@ import Subtitle from '../../../../Layout/Title/Subtitle';
 import BoxListLeft from '../../../../Layout/BoxList/BoxListLeft';
 import BoxListRight from '../../../../Layout/BoxList/BoxListRight';
 
-import Sample from '../../../../assets/video/Sample.mp4';
-import MLB_1 from '../../Video/MLB_1.mov';
-import MLB_2 from '../../Video/MLB_2.mov';
-import MLB_3 from '../../Video/MLB_3.mov';
-import MLB_4 from '../../Video/MLB_4.mov';
-
 const Unity3D_Features = (props) => {
   return (
     <>
@@ -21,20 +15,22 @@ const Unity3D_Features = (props) => {
             <BoxListLeft
               className={classes.unity3d_features_boxList}
               videoSrc={
-                'https://macscollection.s3.ap-northeast-1.amazonaws.com/Video/UnityProject/MLB_1.mov'
+                'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/MLB_1.mov'
               }
             >
               <h3>Full Animation Characters</h3>
               <p>
                 Each player on the field has been fully animated under the
-                instruction of professional. The realtime movement makes the
+                instruction of professionals. The real-time movement makes the
                 experience much more intuitive.
               </p>
             </BoxListLeft>
 
             <BoxListRight
               className={classes.unity3d_features_boxList}
-              videoSrc={MLB_2}
+              videoSrc={
+                'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/MLB_2.mov'
+              }
             >
               <h3>Smooth Camera Movement</h3>
               <p>
@@ -45,19 +41,23 @@ const Unity3D_Features = (props) => {
 
             <BoxListLeft
               className={classes.unity3d_features_boxList}
-              videoSrc={MLB_3}
+              videoSrc={
+                'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/MLB_3.mov'
+              }
             >
               <h3>Responsive UI Components</h3>
               <p>
-                The user interfaces of this assignment is designed to match the
+                The user interfaces of this assignment are designed to match the
                 color scheme and visual element. They are also responsive in
-                adapting various screen sizes.
+                adapting different screen sizes.
               </p>
             </BoxListLeft>
 
             <BoxListRight
               className={classes.unity3d_features_boxList}
-              videoSrc={MLB_4}
+              videoSrc={
+                'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/MLB_4.mov'
+              }
             >
               <h3>Quick Rewind</h3>
               <p>

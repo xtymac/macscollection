@@ -1,0 +1,32 @@
+.webDesign_CTA {
+  padding-bottom: 0;
+  .wd_container {
+    width: 100vw;
+
+    .wd_Banner {
+      display: block;
+      .wd_CTA_IMG {
+        display: block;
+        width: 100%;
+        @media (max-width: 768px) {
+          width: 200%;
+          overflow: hidden;
+          transform: translateX(-24%);
+        }
+      }
+    }
+    .wd_cta_Slogan_Img {
+      margin-top: 3.5rem;
+      margin-right: 16%;
+      width: 20rem;
+      @media (max-width: 768px) {
+        width: 12rem;
+        margin-right: 12%;
+      }
+    }
+    .wd_link {
+      cursor: pointer;
+      color: inherit;
+    }
+  }
+}

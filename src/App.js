@@ -11,11 +11,16 @@ import AboutMe from './components/AboutMe/AboutMe';
 
 // Libraries
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import ScrollToTop from 'react-scroll-to-top';
+
+// Image
+import { ReactComponent as ARROW } from './assets/image/arrow-up.svg';
 
 function App() {
   return (
     <Router>
       <div className="App-body">
+        <ScrollToTop smooth component={<ARROW />} />
         <Header />
         <Switch>
           <Route path="/" exact component={Body} />

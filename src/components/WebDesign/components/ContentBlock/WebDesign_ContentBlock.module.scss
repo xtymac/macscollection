@@ -1,0 +1,53 @@
+.webDesign_ContentBlock {
+  margin-top: 10rem;
+  padding-top: 2.5rem;
+  background-color: #fff;
+  @media (max-width: 768px) {
+    margin-top: 0rem;
+    padding-top: 0rem;
+  }
+
+  .contentBlock_TopLine {
+    margin: 0 auto;
+    width: 80%;
+    border-bottom: 2px solid #d7d7d7;
+  }
+
+  .wc_block_1,
+  .wc_block_2,
+  .wc_block_3 {
+    margin-top: 2.5rem;
+    img {
+      width: 100rem;
+      margin-top: 5rem;
+      @media (max-width: 1280px) {
+        width: 80rem;
+      }
+      @media (max-width: 768px) {
+        width: 100vw;
+      }
+    }
+  }
+
+  .wc_block_title {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 5rem auto 4.2rem;
+    line-height: 5rem;
+    span {
+      vertical-align: text-top;
+    }
+    @media (max-width: 768px) {
+      font-size: 3.5rem;
+    }
+  }
+  .wc_block_description {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    line-height: 4rem;
+    font-weight: 500;
+  }
+  // .wc_DistanceBetweenNext {
+  //   height: 0rem;
+  // }
+}

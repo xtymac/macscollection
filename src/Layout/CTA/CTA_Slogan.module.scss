@@ -1,0 +1,22 @@
+.cta_Slogan {
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10% 0 10%;
+
+  .cta_Slogan_text {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 5rem;
+    color: #0c0c0d;
+    text-align: left;
+    @media (max-width: 1280px) {
+      line-height: 4rem;
+    }
+    @media (max-width: 768px) {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+  }
+}

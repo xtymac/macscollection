@@ -1,5 +1,4 @@
 import classes from './Unity3D_Showcase.module.scss';
-import SHOWCASE from '../../Video/Showcase.mov';
 import Unity3DBanner from './Banner/Unity3D_Banner';
 
 const Unity3D_Showcase = () => {
@@ -13,7 +12,9 @@ const Unity3D_Showcase = () => {
         /> */}
         <video
           className={classes.unity3d_showcase_video}
-          src={SHOWCASE}
+          src={
+            'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/Showcase.mov'
+          }
           onContextMenu={(event) => event.preventDefault()}
           loop
           autoPlay
