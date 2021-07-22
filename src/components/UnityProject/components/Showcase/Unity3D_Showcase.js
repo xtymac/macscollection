@@ -1,16 +1,18 @@
 import classes from './Unity3D_Showcase.module.scss';
 import Unity3DBanner from './Banner/Unity3D_Banner';
 
+import SHOWCASE from '../../image/Showcase.png';
+
 const Unity3D_Showcase = () => {
   return (
     <>
       <div className={classes.unity3d_showcase}>
-        {/* <img
+        <img
           src={SHOWCASE}
           alt="Unity3D Showcase"
           className={classes.unity3d_showcase_video}
-        /> */}
-        <video
+        />
+        {/* <video
           className={classes.unity3d_showcase_video}
           src={
             'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/Showcase.mov'
@@ -20,7 +22,7 @@ const Unity3D_Showcase = () => {
           autoPlay
           muted
           playsInline
-        />
+        /> */}
       </div>
       <Unity3DBanner />
     </>
