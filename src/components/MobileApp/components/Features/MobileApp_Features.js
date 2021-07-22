@@ -4,11 +4,6 @@ import Subtitle from '../../../../Layout/Title/Subtitle';
 import BoxListLeft from '../../../../Layout/BoxList/BoxListLeft';
 import BoxListRight from '../../../../Layout/BoxList/BoxListRight';
 
-import AIMILY_1 from '../../video/Aimily_1.mov';
-import AIMILY_2 from '../../video/Aimily_2.mov';
-import AIMILY_3 from '../../video/Aimily_3.mov';
-import AIMILY_4 from '../../video/Aimily_4.mov';
-
 import MobileAppDownload from './Download/MobileApp_Download';
 import MobileAppNext from './Next/MobileApp_Next';
 
@@ -24,7 +19,9 @@ const MobileApp_Features = () => {
           <ol className={classes.reactNative_orderList}>
             <BoxListLeft
               className={classes.reactNative_boxList}
-              videoSrc={AIMILY_1}
+              videoSrc={
+                'https://d3iqs67oyp9328.cloudfront.net/Video/MobileApp/Aimily_1.mov'
+              }
             >
               <h3>Make your goal smart</h3>
               <p>
@@ -36,7 +33,9 @@ const MobileApp_Features = () => {
 
             <BoxListRight
               className={classes.reactNative_boxList}
-              videoSrc={AIMILY_2}
+              videoSrc={
+                'https://d3iqs67oyp9328.cloudfront.net/Video/MobileApp/Aimily_2.mov'
+              }
             >
               <h3>Low effort, high impact</h3>
               <p>
@@ -48,7 +47,9 @@ const MobileApp_Features = () => {
 
             <BoxListLeft
               className={classes.reactNative_boxList}
-              videoSrc={AIMILY_3}
+              videoSrc={
+                'https://d3iqs67oyp9328.cloudfront.net/Video/MobileApp/Aimily_3.mov'
+              }
             >
               <h3>See your progress, lively</h3>
               <p>
@@ -61,7 +62,9 @@ const MobileApp_Features = () => {
 
             <BoxListRight
               className={classes.reactNative_boxList}
-              videoSrc={AIMILY_4}
+              videoSrc={
+                'https://d3iqs67oyp9328.cloudfront.net/Video/MobileApp/Aimily_4.mov'
+              }
             >
               <h3>Let us support you</h3>
               <p>

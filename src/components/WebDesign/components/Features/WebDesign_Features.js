@@ -3,11 +3,6 @@ import Subtitle from '../../../../Layout/Title/Subtitle';
 import BoxListLeft from '../../../../Layout/BoxList/BoxListLeft';
 import BoxListRight from '../../../../Layout/BoxList/BoxListRight';
 
-import SAMPLE from '../../../../assets/video/Sample.mp4';
-import WEBDESIGN_1 from '../../Video/WebDesign_1.mov';
-import WEBDESIGN_2 from '../../Video/WebDesign_2.mov';
-import WEBDESIGN_3 from '../../Video/WebDesign_3.mov';
-
 const WebDesign_Features = (props) => {
   return (
     <>
@@ -17,7 +12,9 @@ const WebDesign_Features = (props) => {
           <ol className={classes.features_boxLists_orderList}>
             <BoxListLeft
               className={classes.features_boxLists_boxList}
-              videoSrc={WEBDESIGN_1}
+              videoSrc={
+                'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_1.mov'
+              }
             >
               <h3>Responsive Design</h3>
               <p>
@@ -29,7 +26,9 @@ const WebDesign_Features = (props) => {
 
             <BoxListRight
               className={classes.features_boxLists_boxList}
-              videoSrc={WEBDESIGN_2}
+              videoSrc={
+                'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_2.mov'
+              }
             >
               <h3>Mobile Friendly UI</h3>
               <p>
@@ -41,7 +40,9 @@ const WebDesign_Features = (props) => {
 
             <BoxListLeft
               className={classes.features_boxLists_boxList}
-              videoSrc={WEBDESIGN_3}
+              videoSrc={
+                'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_3.mov'
+              }
             >
               <h3>Reusable Components</h3>
               <p>

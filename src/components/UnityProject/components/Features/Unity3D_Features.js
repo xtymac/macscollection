@@ -3,10 +3,6 @@ import Subtitle from '../../../../Layout/Title/Subtitle';
 import BoxListLeft from '../../../../Layout/BoxList/BoxListLeft';
 import BoxListRight from '../../../../Layout/BoxList/BoxListRight';
 
-import MLB_2 from '../../Video/MLB_2.mov';
-import MLB_3 from '../../Video/MLB_3.mov';
-import MLB_4 from '../../Video/MLB_4.mov';
-
 const Unity3D_Features = (props) => {
   return (
     <>
