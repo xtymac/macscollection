@@ -5,6 +5,8 @@ import PLACEHOLDER_IMG from './image/Showcase_Placeholder.png';
 import WebDesignFeatures from './components/Features/WebDesign_Features';
 import ShowcaseImage from '../../Layout/Showcase/Showcase_image';
 import WebDesignIntro from './components/Introduction/WebDesign_Intro';
+import CONTENTBLOCK from './components/ContentBlock/WebDesign_ContentBlock';
+import CTA from './components/CTA/WebDesign_CTA';
 
 const WebDesign = () => {
   return (
@@ -14,9 +16,17 @@ const WebDesign = () => {
 
         <WebDesignIntro />
 
-        <section className={classes.webDesign_features}>
+        <div className={classes.webDesign_features}>
           <WebDesignFeatures />
-        </section>
+        </div>
+
+        <div className={classes.webDesign_ContentBlock}>
+          <CONTENTBLOCK />
+        </div>
+
+        <div className={classes.webDesign_CTA}>
+          <CTA />
+        </div>
       </section>
       <div className={classes.webDesign_BottomLine} />
     </>

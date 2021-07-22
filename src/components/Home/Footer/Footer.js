@@ -12,22 +12,42 @@ const Footer = (props) => {
         <div className={classes.social}>
           <ul>
             <li>
-              <a href="#" alt="facebook">
-                <img src={facebook} alt="facebook" />
+              <a
+                href="https://www.facebook.com/profile.php?id=100006328785282"
+                target="_blank"
+                rel="noopener noreferrer"
+                alt="Facebook"
+              >
+                <img src={facebook} alt="Facebook" />
               </a>
             </li>
             <li>
-              <a href="#" alt="notion">
-                <img src={notion} alt="notion" />
+              <a
+                href="https://macxiang.notion.site/Mac-s-Collection-71a7e302db5b442d8fcde943d6abd79d"
+                target="_blank"
+                rel="noopener noreferrer"
+                alt="notion"
+              >
+                <img src={notion} alt="Notion" />
               </a>
             </li>
             <li>
-              <a href="#" alt="linkedIn">
+              <a
+                href="https://www.linkedin.com/in/macxiang/"
+                target="_blank"
+                rel="noopener noreferrer"
+                alt="LinkedIn"
+              >
                 <img src={linkedIn} alt="linkedIn" />
               </a>
             </li>
             <li>
-              <a href="#" alt="gitHub">
+              <a
+                href="https://github.com/xtymac/macscollection"
+                target="_blank"
+                rel="noopener noreferrer"
+                alt="gitHub"
+              >
                 <img src={gitHub} alt="gitHub" />
               </a>
             </li>

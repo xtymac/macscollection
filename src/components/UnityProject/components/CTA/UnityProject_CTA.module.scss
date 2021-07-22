@@ -13,38 +13,17 @@
         }
       }
     }
-    .uc_Slogan {
-      display: flex;
-      background-color: #fff;
-      justify-content: center;
-      align-items: center;
-      padding: 0 10% 0 10%;
-      .uc_Trophy_IMG {
-        margin-top: 2rem;
-        width: 12rem;
-        margin-right: 20%;
-        @media (max-width: 768px) {
-          width: 8rem;
-        }
+    .up_cta_Slogan_Img {
+      margin-top: 2rem;
+      width: 12rem;
+      margin-right: 20%;
+      @media (max-width: 768px) {
+        width: 8rem;
       }
-      .uc_Slogan_text {
-        font-size: 3rem;
-        font-weight: 600;
-        line-height: 5rem;
-        color: #0c0c0d;
-        text-align: left;
-        @media (max-width: 1280px) {
-          line-height: 4rem;
-        }
-        @media (max-width: 768px) {
-          font-size: 2rem;
-          line-height: 3rem;
-        }
-        .uc_link {
-          cursor: pointer;
-          color: inherit;
-        }
-      }
+    }
+    .uc_link {
+      cursor: pointer;
+      color: inherit;
     }
   }
 }
