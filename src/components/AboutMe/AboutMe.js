@@ -8,6 +8,8 @@ import Introduction from './components/Introduction/AboutMe_Introduction';
 import HireMe from './components/HireMe/AboutMe_HireMe';
 import CTA from './components/CTA/AboutMe_CTA';
 
+import LazyLoad from 'react-lazyload';
+
 const AboutMe = () => {
   return (
     <>
@@ -21,7 +23,9 @@ const AboutMe = () => {
           <HireMe />
         </div>
         <div className={classes.aboutMe_CTA}>
-          <CTA />
+          <LazyLoad height={300}>
+            <CTA />
+          </LazyLoad>
         </div>
       </section>
       <div className={classes.aboutMe_BottomLine} />
