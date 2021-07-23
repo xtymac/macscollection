@@ -17,10 +17,12 @@ const AboutMe = () => {
         <Introduction />
 
         <ContentBlock />
-
-        <HireMe />
-
-        <CTA />
+        <div className={classes.aboutMe_HireMe}>
+          <HireMe />
+        </div>
+        <div className={classes.aboutMe_CTA}>
+          <CTA />
+        </div>
       </section>
       <div className={classes.aboutMe_BottomLine} />
     </>

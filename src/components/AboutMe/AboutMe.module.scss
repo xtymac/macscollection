@@ -2,7 +2,7 @@
   // overflow: hidden;
   color: #0c0c0d;
   background-color: white;
-  padding-bottom: 5rem;
+  // padding-bottom: 5rem;
   overflow: hidden;
   @media (max-width: 768px) {
     margin-top: 5vh;
@@ -11,6 +11,19 @@
 
 .aboutMe_features {
   // margin-top: -9rem;
+}
+
+// .aboutMe_HireMe {
+//   @media (max-width: 768px) {
+//     margin-top: -2rem;
+//   }
+// }
+
+.aboutMe_CTA {
+  margin-top: 6rem;
+  @media (max-width: 768px) {
+    margin-top: 4rem;
+  }
 }
 
 .aboutMe_BottomLine {

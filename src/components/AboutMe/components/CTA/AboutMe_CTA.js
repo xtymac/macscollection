@@ -2,37 +2,58 @@ import classes from './AboutMe_CTA.module.scss';
 
 import React, { Component } from 'react';
 
-import CTASLOGAN from '../../../../Layout/CTA/CTA_Slogan';
+import CTASlogan from '../../../../Layout/CTA/CTA_Slogan';
+
+import CTAICON from '../../image/CTA_Icon.svg';
 
 const AboutMe_CTA = () => {
   const data = [
     {
-      color: '#51c4c2',
-      diameter: 90,
+      // Blue
+      diameter: 0,
+      borderWidth: '0 2rem 2rem 2rem',
+      borderColor: 'transparent transparent #007bff transparent',
       position: {
-        left: 180,
-        top: 45,
+        left: 30,
+        top: 15,
       },
       interval: 1,
       distance: 40,
       step: 7,
     },
     {
-      color: '#1fbecf',
-      diameter: 350,
+      // Pink
+      diameter: 0,
+      borderWidth: '2rem 2rem 2rem 0',
+      borderColor: 'transparent #da3276 transparent transparent',
       position: {
-        left: -100,
-        top: 150,
+        left: 360,
+        top: 30,
       },
       interval: 1,
       distance: 25,
       step: 5,
     },
     {
-      color: '#60c7bc',
-      diameter: 170,
+      // Pink
+      diameter: 0,
+      borderWidth: ' 0 0 2.5rem 2.5rem',
+      borderColor: ' transparent transparent #f9cc46 transparent',
       position: {
-        left: 300,
+        left: 0,
+        top: 170,
+      },
+      interval: 1,
+      distance: 25,
+      step: 5,
+    },
+    {
+      // purple
+      diameter: 0,
+      borderWidth: '2.5rem 0 0 2.5rem',
+      borderColor: 'transparent transparent transparent #4e2c80',
+      position: {
+        left: 50,
         top: 300,
       },
       interval: 1,
@@ -40,37 +61,56 @@ const AboutMe_CTA = () => {
       step: 8,
     },
     {
-      color: '#f47f61',
-      diameter: 150,
+      // Brown
+      diameter: 0,
+      borderWidth: '2rem 0 2rem 2rem',
+      borderColor: 'transparent transparent transparent #d3a284',
       position: {
-        left: 600,
-        top: 150,
+        left: 340,
+        top: 90,
       },
       interval: 1,
       distance: 20,
       step: 5,
     },
     {
-      color: '#f05572',
-      diameter: 60,
+      // Dark Blue
+      diameter: 0,
+      borderWidth: '2.5rem 0 0 2.5rem',
+      borderColor: '#143f83 transparent transparent transparent',
       position: {
-        left: 510,
-        top: 170,
+        left: 30,
+        top: 150,
       },
       interval: 1,
       distance: 25,
       step: 6,
     },
     {
-      color: '#f1666e',
-      diameter: 100,
+      // Green
+      diameter: 0,
+      borderWidth: '0 0 2.5rem 2.5rem',
+      borderColor: 'transparent transparent #3c914d transparent',
       position: {
-        left: 535,
-        top: 50,
+        left: 320,
+        top: 150,
       },
       interval: 1,
       distance: 10,
       step: 3,
+    },
+    {
+      // Orange
+      diameter: 0,
+      borderWidth: '2.5rem 0 0 2.5rem',
+      borderColor: 'transparent transparent transparent #f05a22',
+      position: {
+        left: 60,
+        top: 90,
+      },
+      interval: 1,
+      distance: 30,
+      step: 8,
     },
   ];
 
@@ -132,54 +172,60 @@ const AboutMe_CTA = () => {
   }
 
   return (
-    <div className={classes.webDesign_CTA}>
-      <div className={classes.wd_container}>
-        <div className="container">
-          {data.map((item) => (
-            <div
-              className="part"
-              style={{
-                left: `${item.position.left}px`,
-                top: `${item.position.top}px`,
-              }}
-            >
-              <MovingPart
-                interval={item.interval}
-                distance={item.distance}
-                step={item.step}
-              >
+    <div className={classes.aboutMe_CTA}>
+      <div className={classes.am_CTA_container}>
+        <div className={classes.am_CTA_Slogan}>
+          <div className={classes.am_CTA_Slogan_triangleImg}>
+            <img
+              src={CTAICON}
+              alt={'Portfolio Logo'}
+              className={classes.am_CTA_Slogan_img}
+            />
+            <div className={classes.am_CTA_triangles}>
+              {data.map((item) => (
                 <div
-                  className="part__figure"
+                  className={classes.am_CTA_triangle_part}
                   style={{
-                    background: item.color,
-                    width: `${item.diameter}px`,
-                    height: `${item.diameter}px`,
-                    borderLeft: `${item.diameter}px`,
+                    left: `${item.position.left}px`,
+                    top: `${item.position.top}px`,
                   }}
-                />
-              </MovingPart>
+                >
+                  <MovingPart
+                    interval={item.interval}
+                    distance={item.distance}
+                    step={item.step}
+                  >
+                    <div
+                      className="part__figure"
+                      style={{
+                        // background: item.color,
+                        width: `${item.diameter}px`,
+                        height: `${item.diameter}px`,
+                        borderStyle: 'solid',
+                        borderWidth: item.borderWidth,
+                        borderColor: item.borderColor,
+                      }}
+                    />
+                  </MovingPart>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
+          <div className={classes.am_CTA_Slogan_text}>
+            <p>View source code of this portfolio,</p>
+            <p>
+              get your link &nbsp;
+              <a
+                href="https://github.com/xtymac/macscollection"
+                target="_blank"
+                rel="noreferrer"
+                className={classes.am_link}
+              >
+                from here.
+              </a>
+            </p>
+          </div>
         </div>
-
-        {/* <CTASLOGAN
-          cta_Slogan_Img={OCTOCAT}
-          cta_Slogan_Img_Alt={'GitHub Octocat'}
-          className={classes.wd_cta_Slogan}
-        >
-          <p>View source code of this portfolio,</p>
-          <p>
-            get your link &nbsp;
-            <a
-              href="https://github.com/xtymac/macscollection"
-              target="_blank"
-              rel="noreferrer"
-              className={classes.wd_link}
-            >
-              from here.
-            </a>
-          </p>
-        </CTASLOGAN> */}
       </div>
     </div>
   );
