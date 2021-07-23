@@ -18,11 +18,11 @@ const AboutMe_ContentBlock = () => {
             Passing the right culture
           </div>
           <div className={classes.ac_block_description}>
-            In the past four years, I have done various UIUX researches using
-            primary research, focus group, internal and external usability
-            testing approaches. Besides extracting results from the data and
-            analytics, UIUX to me it to pass the most correct culture from a
-            company to its target group.
+            Over the past four years, I have completed several UIUX research
+            projects using primary research, focus group, and both internal and
+            external usability testing approaches. Besides extracting results
+            from data and analytics, UIUX to me means the passing of a culture
+            from a company to its target group.
           </div>
         </ContentBlock>
 
@@ -33,11 +33,11 @@ const AboutMe_ContentBlock = () => {
         >
           <div className={classes.ac_block_title}>Time matters the most</div>
           <div className={classes.ac_block_description}>
-            In industries like design and technology, good craft usually
-            requires a significant amount of dedication. No matter its research
-            or detailing that takes the most effort. Project management is like
-            a mindset that helps me to track everything since first day of
-            scratch.
+            In industries like design and technology, good craft requires a
+            significant amount of dedication, whether it is research or
+            detailing requiring the most effort. Project management is a mindset
+            that helps me to track everything over the entire life cycle of a
+            project.
           </div>
         </ContentBlock>
 
@@ -47,13 +47,14 @@ const AboutMe_ContentBlock = () => {
           className={classes.ac_block_3}
         >
           <div className={classes.ac_block_title}>
-            Quality equals to creativity
+            Quality equals creativity
           </div>
           <div className={classes.ac_block_description}>
-            To invent a thing from scratch or produce a nearly perfect project
-            has the same value to me. Having a creative mind does not
-            necessarily mean thinking out of the box but also reinforcing it.
-            Every craftsmanship has its value in 21 century.
+            Inventing a product from scratch and producing a near-perfect
+            project hold the same value to me. Having a creative mind does not
+            necessarily mean thinking out of the box but instead can refer to
+            reinforcing existing concepts in novel ways. Every type of
+            craftsmanship holds value in the modern-day marketplace.
           </div>
         </ContentBlock>
       </div>

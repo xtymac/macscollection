@@ -15,13 +15,13 @@ const UnityProject_ContentBlock = () => {
           className={classes.uc_block_1}
         >
           <div className={classes.uc_block_title}>
-            Working with professional assets
+            Working with professional resources
           </div>
           <div className={classes.uc_block_description}>
-            It is made possible to build a baseball primer with animated players
-            and professional assets. More importantly, this project aims to call
-            for entries to those actual game players, baseball enthusiasts, and
-            typical sportspeople.
+            This project has made it possible to build a baseball primer,
+            complete with animated players and professional assets. More
+            importantly, this project aims to call for entries from actual game
+            players, baseball enthusiasts, and typical sportspeople.
           </div>
         </ContentBlock>
 
@@ -31,13 +31,13 @@ const UnityProject_ContentBlock = () => {
           className={classes.uc_block_2}
         >
           <div className={classes.uc_block_title}>
-            Timeline and cinematic shots
+            Timelines and cinematic shots
           </div>
           <div className={classes.uc_block_description}>
             The opening of the project is a cutscene in which users are able to
-            overlook the stadium. The following is a close-up shot on the player
-            and a dolly zoom after the ball is pitched. All those clips form the
-            opening, and they are composed within one Timeline.
+            overlook a stadium. This cutscene is followed by a close-up shot on
+            the player and a dolly zoom after the ball is pitched. These clips
+            form the opening, and they are both composed within one Timeline.
           </div>
         </ContentBlock>
 
@@ -50,9 +50,9 @@ const UnityProject_ContentBlock = () => {
             MLB <span>x</span> TEAM MAC
           </div>
           <div className={classes.uc_block_description}>
-            The uniform design is taking 21st-century baseball player clothing
-            as a reference. By adding the brand logo, it makes the player and
-            group spirit shine on the baseball field.
+            The uniform design uses typical 21st-century baseball player
+            clothing as a reference. By adding logos, both the player and the
+            brand info have the chance to shine on the virtual baseball field.
           </div>
         </ContentBlock>
       </div>

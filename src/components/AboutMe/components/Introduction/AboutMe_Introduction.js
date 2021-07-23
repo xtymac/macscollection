@@ -17,13 +17,13 @@ const AboutMe_Introduction = () => {
       </div>
       <Introduction className={classes.ai_Introduction_fix}>
         <div style={{ color: 'white' }}>
-          I am a UI UX designer living in Tokyo, Japan. I do web development,
-          front-end design, and useability research. I am currently looking for
-          a new opportunity in the tech industry. I am comfortable using
-          English, Japanese, and Chinese and am willing to work in a diversified
-          environment. I am familiar with HTML, CSS, React.js, AWS, and Unity.
-          These technologies help me to build a better web user experience for
-          companies in various industries.
+          I am a UIUX designer living in Tokyo, Japan. I perform web
+          development, front-end design, and usability research. I am currently
+          searching for a new opportunity in the tech industry. I am comfortable
+          using English, Japanese, and Chinese, and I am willing to work in a
+          diversified environment. I am familiar with HTML, CSS, React.js, AWS,
+          and Unity frameworks, which I use to help build a better web
+          experience for users around the world.
         </div>
       </Introduction>
     </div>

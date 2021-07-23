@@ -27,16 +27,16 @@ const UnityProject_CTA = () => {
           cta_Slogan_Img_Alt={'Trophy'}
           className={classes.up_cta_Slogan}
         >
-          <p>Hands on our latest prototype on Unity Play,</p>
+          <p>Hands-on with our latest prototype on Unity Play.</p>
           <p>
-            get your link &nbsp;
+            Get your&nbsp;
             <a
               href="https://play.unity.com/mg/other/webgl-builds-74032"
               target="_blank"
               rel="noreferrer"
               className={classes.uc_link}
             >
-              from here.
+              link here.
             </a>
           </p>
         </CTASLOGAN>

@@ -15,7 +15,7 @@ const AboutMe_CTA = () => {
       borderColor: 'transparent transparent #007bff transparent',
       position: {
         left: 30,
-        top: 15,
+        top: 0,
       },
       interval: 1,
       distance: 40,
@@ -27,21 +27,21 @@ const AboutMe_CTA = () => {
       borderWidth: '2rem 2rem 2rem 0',
       borderColor: 'transparent #da3276 transparent transparent',
       position: {
-        left: 360,
-        top: 30,
+        left: 350,
+        top: 10,
       },
       interval: 1,
       distance: 25,
       step: 5,
     },
     {
-      // Pink
+      // Yello
       diameter: 0,
       borderWidth: ' 0 0 2.5rem 2.5rem',
       borderColor: ' transparent transparent #f9cc46 transparent',
       position: {
         left: 0,
-        top: 170,
+        top: 60,
       },
       interval: 1,
       distance: 25,
@@ -66,18 +66,18 @@ const AboutMe_CTA = () => {
       borderWidth: '2rem 0 2rem 2rem',
       borderColor: 'transparent transparent transparent #d3a284',
       position: {
-        left: 340,
-        top: 90,
+        left: 300,
+        top: 75,
       },
       interval: 1,
       distance: 20,
       step: 5,
     },
     {
-      // Dark Blue
+      // Violet
       diameter: 0,
       borderWidth: '2.5rem 0 0 2.5rem',
-      borderColor: '#143f83 transparent transparent transparent',
+      borderColor: '#b6abcd transparent transparent transparent',
       position: {
         left: 30,
         top: 150,
@@ -93,7 +93,7 @@ const AboutMe_CTA = () => {
       borderColor: 'transparent transparent #3c914d transparent',
       position: {
         left: 320,
-        top: 150,
+        top: 130,
       },
       interval: 1,
       distance: 10,
@@ -212,16 +212,15 @@ const AboutMe_CTA = () => {
             </div>
           </div>
           <div className={classes.am_CTA_Slogan_text}>
-            <p>View source code of this portfolio,</p>
+            <p>Design for future, design for diversity.</p>
             <p>
-              get your link &nbsp;
               <a
-                href="https://github.com/xtymac/macscollection"
+                href="https://www.instagram.com/explore/tags/strongtogether/?hl=en"
                 target="_blank"
                 rel="noreferrer"
                 className={classes.am_link}
               >
-                from here.
+                #strongtogether
               </a>
             </p>
           </div>
