@@ -6,6 +6,7 @@ import ContentBlock from './components/ContentBlock/AboutMe_ContentBlock';
 import ShowcaseImage from '../../Layout/Showcase/Showcase_image';
 import Introduction from './components/Introduction/AboutMe_Introduction';
 import HireMe from './components/HireMe/AboutMe_HireMe';
+import CTA from './components/CTA/AboutMe_CTA';
 
 const AboutMe = () => {
   return (
@@ -18,6 +19,8 @@ const AboutMe = () => {
         <ContentBlock />
 
         <HireMe />
+
+        <CTA />
       </section>
       <div className={classes.aboutMe_BottomLine} />
     </>

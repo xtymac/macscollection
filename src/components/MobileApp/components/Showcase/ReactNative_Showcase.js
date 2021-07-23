@@ -3,6 +3,8 @@ import classes from './ReactNative_Showcase.module.scss';
 import SVGLOGO from '../../image/logo.svg';
 import SHOWCASEPNG from '../../image/Showcase.png';
 
+import Fade from 'react-reveal/Fade';
+
 const ReactNative_Showcase = (props) => {
   return (
     <>
@@ -16,11 +18,13 @@ const ReactNative_Showcase = (props) => {
             />
           </div>
           <div className={classes.reactNative_showcase_image_screenshots}>
-            <img
-              className={classes.reactNative_showcase_image_screenshots_img}
-              src={SHOWCASEPNG}
-              alt="Aimily App Screenshot"
-            />
+            <Fade left>
+              <img
+                className={classes.reactNative_showcase_image_screenshots_img}
+                src={SHOWCASEPNG}
+                alt="Aimily App Screenshot"
+              />
+            </Fade>
           </div>
         </div>
       </section>

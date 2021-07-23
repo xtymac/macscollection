@@ -15,6 +15,7 @@ const Unity3D_Banner = () => {
           autoPlay
           muted
           playsInline
+          preload
         />
       </div>
       <div className={classes.unity3d_slogan}>

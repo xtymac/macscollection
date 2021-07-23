@@ -11,7 +11,7 @@ const WebDesign_CTA = () => {
         <CTASLOGAN
           cta_Slogan_Img={OCTOCAT}
           cta_Slogan_Img_Alt={'GitHub Octocat'}
-          className={classes.wd_cta_Slogan_Img}
+          className={classes.wd_cta_Slogan}
         >
           <p>View source code of this portfolio,</p>
           <p>
