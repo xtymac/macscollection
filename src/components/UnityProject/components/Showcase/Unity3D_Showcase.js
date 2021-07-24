@@ -2,6 +2,7 @@ import classes from './Unity3D_Showcase.module.scss';
 import Unity3DBanner from './Banner/Unity3D_Banner';
 
 import SHOWCASE from '../../image/Showcase.png';
+import SHOWCASE768 from '../../image/Showcase768.png';
 
 const Unity3D_Showcase = () => {
   return (
@@ -9,6 +10,7 @@ const Unity3D_Showcase = () => {
       <div className={classes.unity3d_showcase}>
         <img
           src={SHOWCASE}
+          srcset={`${SHOWCASE768} 768w, ${SHOWCASE} 1280w`}
           alt="Unity3D Showcase"
           className={classes.unity3d_showcase_video}
         />

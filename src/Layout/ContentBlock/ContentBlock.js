@@ -9,7 +9,7 @@ const ContentBlock = (props) => {
   return (
     <div className={styles}>
       <Fade bottom>
-        <LazyLoad offset={200}>
+        <LazyLoad height={700} offset={700}>
           <img
             src={props.imgSrc}
             alt={props.imgAlt}
