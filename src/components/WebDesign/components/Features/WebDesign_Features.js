@@ -3,6 +3,9 @@ import Subtitle from '../../../../Layout/Title/Subtitle';
 import BoxListLeft from '../../../../Layout/BoxList/BoxListLeft';
 import BoxListRight from '../../../../Layout/BoxList/BoxListRight';
 
+import VIDEO4 from '../../Video/WebDesign_4.mov';
+import VIDEO2 from '../../Video/WebDesign_2.mov';
+
 const WebDesign_Features = (props) => {
   return (
     <>
@@ -26,9 +29,7 @@ const WebDesign_Features = (props) => {
 
             <BoxListRight
               className={classes.features_boxLists_boxList}
-              videoSrc={
-                'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_2.mov'
-              }
+              videoSrc={VIDEO2}
             >
               <h3>Mobile Friendly UI</h3>
               <p>
@@ -51,6 +52,18 @@ const WebDesign_Features = (props) => {
                 it, the performance of the site has been improved by 10%.
               </p>
             </BoxListLeft>
+
+            <BoxListRight
+              className={classes.features_boxLists_boxList}
+              videoSrc={VIDEO4}
+            >
+              <h3>Transition and Lazy Load</h3>
+              <p>
+                In order to load content such as showcase (video) faster, the
+                page has implemented React transition and lazy loading. The
+                continuous loading is happening when the user scrolls down.
+              </p>
+            </BoxListRight>
           </ol>
         </div>
       </div>

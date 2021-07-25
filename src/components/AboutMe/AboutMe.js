@@ -1,6 +1,6 @@
 import classes from './AboutMe.module.scss';
 
-import PLACEHOLDER_IMG from './image/Showcase_Placeholder.png';
+import SHOWCASE from './Video/SHOWCASE.mov';
 
 import ContentBlock from './components/ContentBlock/AboutMe_ContentBlock';
 import ShowcaseImage from '../../Layout/Showcase/Showcase_image';
@@ -12,9 +12,16 @@ const AboutMe = () => {
   return (
     <>
       <section className={classes.aboutMe}>
-        <ShowcaseImage imgSrc={PLACEHOLDER_IMG} imgAlt={'Placeholder'} />
+        <ShowcaseImage
+          imgSrc={SHOWCASE}
+          className={classes.aboutMe_showcase_video}
+          // imgSrc768={SHOWCASE}
+          // imgAlt={'Placeholder'}
+        />
 
-        <Introduction />
+        <div className={classes.aboutMe_Intro}>
+          <Introduction />
+        </div>
 
         <ContentBlock />
         <div className={classes.aboutMe_HireMe}>

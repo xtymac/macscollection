@@ -3,17 +3,17 @@
   text-align: center;
 
   .si_container {
-    border: 1px solid white;
-    .si_container_img {
+    // border: 5px solid white;
+    .showcase_video {
       display: block;
+      position: relative;
       margin: 0 auto;
-      // width: 80%;
-      height: 72rem;
-      border: 1px solid white;
+      @media (max-width: 1280px) {
+        width: 100vw;
+      }
       @media (max-width: 768px) {
         width: 200vw;
         overflow: hidden;
-        transform: translateX(-20%);
       }
     }
   }

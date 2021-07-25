@@ -1,16 +1,27 @@
 import classes from './Showcase_image.module.scss';
 
 const Showcase_image = (props) => {
-  const styles = `${classes.showcase_image} ${classes.className}`;
+  const videoStyle = `${classes.showcase_video} ${props.className}`;
 
   return (
     <>
-      <div className={styles}>
+      <div className={classes.showcase_image}>
         <div className={classes.si_container}>
-          <img
+          {/* <img
             className={classes.si_container_img}
             src={props.imgSrc}
             alt={props.imgAlt}
+          /> */}
+          <video
+            className={videoStyle}
+            src={props.imgSrc}
+            // srcset={`${props.imgSrc768} 768w, ${props.imgSrc} 1280w`}
+            onContextMenu={(event) => event.preventDefault()}
+            loop
+            autoPlay
+            muted
+            playsInline
+            preload="true"
           />
         </div>
       </div>

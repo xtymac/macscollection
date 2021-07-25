@@ -16,6 +16,7 @@
     //! Paragraph Width
     width: 65%;
     @media (max-width: 768px) {
+      margin: 10rem auto;
       width: 80%;
     }
   }
