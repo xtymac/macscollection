@@ -16,7 +16,7 @@ const UnityProject_CTA = () => {
       <div className={classes.uc_container}>
         <div className={classes.uc_Banner}>
           <Fade>
-            <LazyLoad offset={200}>
+            <LazyLoad offset={698}>
               <img src={CTABANNER} alt="CTA" className={classes.uc_CTA_IMG} />
             </LazyLoad>
           </Fade>
