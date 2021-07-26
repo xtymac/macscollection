@@ -20,7 +20,9 @@ function App() {
   return (
     <Router>
       <div className="App-body">
-        <ScrollToTop smooth component={<ARROW />} />
+        <div className="scrollToTop">
+          <ScrollToTop smooth component={<ARROW />} />
+        </div>
         <Header />
         <Switch>
           <Route path="/" exact component={Body} />
