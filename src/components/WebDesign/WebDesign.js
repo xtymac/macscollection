@@ -1,7 +1,5 @@
 import classes from './WebDesign.module.scss';
 
-import SHOWCASE from './Video/WebDesign_Showcase.mov';
-
 import WebDesignFeatures from './components/Features/WebDesign_Features';
 import ShowcaseImage from '../../Layout/Showcase/Showcase_image';
 import WebDesignIntro from './components/Introduction/WebDesign_Intro';
@@ -13,7 +11,12 @@ const WebDesign = () => {
     <>
       <section className={classes.webDesign}>
         <ShowcaseImage
-          imgSrc={SHOWCASE}
+          imgSrc={
+            'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_Showcase.mov'
+          }
+          imgSrc768={
+            'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_Showcase768.mov'
+          }
           className={classes.webDesign_showcase_video}
         />
 

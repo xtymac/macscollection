@@ -15,7 +15,7 @@ const Showcase_image = (props) => {
           <video
             className={videoStyle}
             src={props.imgSrc}
-            // srcset={`${props.imgSrc768} 768w, ${props.imgSrc} 1280w`}
+            srcset={`${props.imgSrc768} 768w, ${props.imgSrc} 1280w`}
             onContextMenu={(event) => event.preventDefault()}
             loop
             autoPlay

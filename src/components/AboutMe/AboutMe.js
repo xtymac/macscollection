@@ -1,7 +1,5 @@
 import classes from './AboutMe.module.scss';
 
-import SHOWCASE from './Video/SHOWCASE.mov';
-
 import ContentBlock from './components/ContentBlock/AboutMe_ContentBlock';
 import ShowcaseImage from '../../Layout/Showcase/Showcase_image';
 import Introduction from './components/Introduction/AboutMe_Introduction';
@@ -13,10 +11,13 @@ const AboutMe = () => {
     <>
       <section className={classes.aboutMe}>
         <ShowcaseImage
-          imgSrc={SHOWCASE}
+          imgSrc={
+            'https://d3iqs67oyp9328.cloudfront.net/Video/AboutMe/AboutMe_Showcase.mov'
+          }
+          imgSrc768={
+            'https://d3iqs67oyp9328.cloudfront.net/Video/AboutMe/AboutMe_Showcase768.mov'
+          }
           className={classes.aboutMe_showcase_video}
-          // imgSrc768={SHOWCASE}
-          // imgAlt={'Placeholder'}
         />
 
         <div className={classes.aboutMe_Intro}>
