@@ -21,8 +21,8 @@ const Unity3D_Features = (props) => {
               <h3>Full Animation Characters</h3>
               <p>
                 Each player on the field has been fully animated under the
-                instruction of professionals. The real-time movement makes the
-                experience much more intuitive.
+                instruction of professionals. Real-time movement makes the
+                experience intuitive.
               </p>
             </BoxListLeft>
 
@@ -34,8 +34,9 @@ const Unity3D_Features = (props) => {
             >
               <h3>Smooth Camera Movement</h3>
               <p>
-                Each camera movement, timeline transition has been carefully
-                calibrated in order to match the tension of the baseball game.
+                For each camera movement, the timeline transition has been
+                carefully calibrated in order to match the tension of a baseball
+                game.
               </p>
             </BoxListRight>
 
@@ -47,9 +48,9 @@ const Unity3D_Features = (props) => {
             >
               <h3>Responsive UI Components</h3>
               <p>
-                The user interfaces of this assignment are designed to match the
-                color scheme and visual element. They are also responsive in
-                adapting different screen sizes.
+                The user interfaces of this assignment are designed to match in
+                terms of color schemes and visual elements. They are also
+                responsive in adapting to different screen sizes.
               </p>
             </BoxListLeft>
 
@@ -63,7 +64,8 @@ const Unity3D_Features = (props) => {
               <p>
                 After the first round of using the application, Quick Rewind is
                 activated automatically. In this mode, transitions are skipped
-                so that users can go through the experience at a fast pace.
+                so that users can progress through the experience at a fast
+                pace.
               </p>
             </BoxListRight>
           </ol>

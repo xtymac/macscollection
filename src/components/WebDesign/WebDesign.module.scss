@@ -1,7 +1,19 @@
 .webDesign {
-  overflow: hidden;
+  // overflow: hidden;
+  margin-top: 2rem;
   color: #0c0c0d;
-  background-color: white;
+  background-color: #fff;
+  @media (max-width: 768px) {
+    margin-top: 5rem;
+  }
+
+  .webDesign_showcase_video {
+    width: 100vw;
+    @media (max-width: 768px) {
+      transform: translateX(-25%);
+      // padding-bottom: 2.5rem;
+    }
+  }
 
   .webDesign_features {
     margin-top: -9rem;

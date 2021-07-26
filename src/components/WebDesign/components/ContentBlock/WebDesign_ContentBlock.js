@@ -18,8 +18,8 @@ const WebDesign_ContentBlock = () => {
           <div className={classes.wc_block_title}>Video as the mainstream</div>
           <div className={classes.wc_block_description}>
             This portfolio is utilizing video as the main demonstration tool.
-            Video content has become the mainstream media for businesses to do
-            marketing online; according to the research from Wyzowl, its
+            Video content has become the mainstream medium for businesses to
+            engage in online marketing. According to research from Wyzowl, its
             dominance comes to 86% in the year 2021.
           </div>
         </ContentBlock>
@@ -33,10 +33,10 @@ const WebDesign_ContentBlock = () => {
             Practice the React features
           </div>
           <div className={classes.wc_block_description}>
-            The underlying framework of this project is React.js which has
-            features such as component base, high efficiency, and so much more.
-            Combined with the CSS module, I am able to build UI within the scope
-            without worrying about tedious file management.
+            The underlying framework of this project is React.js which includes
+            features such as a component base, high efficiency, and more.
+            Combined with the CSS module, I am able to build UI components
+            within the scope without worrying too much about file management.
           </div>
         </ContentBlock>
 
@@ -48,9 +48,9 @@ const WebDesign_ContentBlock = () => {
           <div className={classes.wc_block_title}>Deployment to the cloud</div>
           <div className={classes.wc_block_description}>
             Using AWS Amplify, this project is built and deployed on the cloud.
-            The CloudFront content delivery network has the potential to serve a
-            large amount of traffic. And last but least, Router 53 is in charge
-            of the DNS service.
+            The CloudFront content delivery network has the potential to
+            accommodate a large amount of traffic, and Router 53 is in charge of
+            the DNS service.
           </div>
         </ContentBlock>
       </div>

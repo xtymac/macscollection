@@ -1,23 +1,36 @@
 import classes from './AboutMe.module.scss';
 
-import PLACEHOLDER_IMG from './image/Showcase_Placeholder.png';
-
 import ContentBlock from './components/ContentBlock/AboutMe_ContentBlock';
 import ShowcaseImage from '../../Layout/Showcase/Showcase_image';
 import Introduction from './components/Introduction/AboutMe_Introduction';
 import HireMe from './components/HireMe/AboutMe_HireMe';
+import CTA from './components/CTA/AboutMe_CTA';
 
 const AboutMe = () => {
   return (
     <>
       <section className={classes.aboutMe}>
-        <ShowcaseImage imgSrc={PLACEHOLDER_IMG} imgAlt={'Placeholder'} />
+        <ShowcaseImage
+          imgSrc={
+            'https://d3iqs67oyp9328.cloudfront.net/Video/AboutMe/AboutMe_Showcase.mov'
+          }
+          imgSrc768={
+            'https://d3iqs67oyp9328.cloudfront.net/Video/AboutMe/AboutMe_Showcase768.mov'
+          }
+          className={classes.aboutMe_showcase_video}
+        />
 
-        <Introduction />
+        <div className={classes.aboutMe_Intro}>
+          <Introduction />
+        </div>
 
         <ContentBlock />
-
-        <HireMe />
+        <div className={classes.aboutMe_HireMe}>
+          <HireMe />
+        </div>
+        <div className={classes.aboutMe_CTA}>
+          <CTA />
+        </div>
       </section>
       <div className={classes.aboutMe_BottomLine} />
     </>

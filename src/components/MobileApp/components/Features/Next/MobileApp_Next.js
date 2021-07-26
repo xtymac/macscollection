@@ -1,6 +1,8 @@
 import classes from './MobileApp_Next.module.scss';
 import BLOG from '../../../image/Blog.png';
 
+import Slide from 'react-reveal/Slide';
+
 const MobileApp_Next = () => {
   return (
     <>
@@ -14,8 +16,15 @@ const MobileApp_Next = () => {
             you do better with our App
           </div>
         </div>
+
         <div className={classes.mobileApp_next_blog}>
-          <img className={classes.next_blog_img} src={BLOG} alt="Aimily Blog" />
+          <Slide left>
+            <img
+              className={classes.next_blog_img}
+              src={BLOG}
+              alt="Aimily Blog"
+            />
+          </Slide>
         </div>
       </section>
       <div className={classes.mobileApp_next_black} />

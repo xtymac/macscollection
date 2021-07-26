@@ -1,7 +1,6 @@
 .ai_Introduction {
   background-color: #0c0c0d;
-  border: 1px solid red;
-  //! Distance from next section
+
   // margin-bottom: 0rem;
   .ai_Avatar {
     display: inline-block;
@@ -16,7 +15,11 @@
       align-content: center;
       .ai_Avatar_Image {
         flex: 0 0 auto;
-        margin: 15rem auto 5rem;
+        margin: 14rem auto 5rem;
+        @media (max-width: 768px) {
+          //! Distance from next section
+          margin: 9rem auto 5rem;
+        }
         border-radius: 50%;
         width: 16rem;
       }
@@ -28,10 +31,16 @@
         text-align: center;
         text-transform: uppercase;
         margin-bottom: -10rem; // distance between title and description
+        @media (max-width: 768px) {
+          margin-bottom: -2.5rem;
+        }
       }
     }
   }
   .ai_Introduction_fix {
-    margin-bottom: -2.5rem;
+    margin-bottom: -5rem;
+    @media (max-width: 768px) {
+      margin-bottom: 0rem;
+    }
   }
 }

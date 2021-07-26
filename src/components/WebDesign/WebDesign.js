@@ -1,7 +1,5 @@
 import classes from './WebDesign.module.scss';
 
-import PLACEHOLDER_IMG from './image/Showcase_Placeholder.png';
-
 import WebDesignFeatures from './components/Features/WebDesign_Features';
 import ShowcaseImage from '../../Layout/Showcase/Showcase_image';
 import WebDesignIntro from './components/Introduction/WebDesign_Intro';
@@ -12,7 +10,15 @@ const WebDesign = () => {
   return (
     <>
       <section className={classes.webDesign}>
-        <ShowcaseImage imgSrc={PLACEHOLDER_IMG} imgAlt={'Placeholder'} />
+        <ShowcaseImage
+          imgSrc={
+            'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_Showcase.mov'
+          }
+          imgSrc768={
+            'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_Showcase768.mov'
+          }
+          className={classes.webDesign_showcase_video}
+        />
 
         <WebDesignIntro />
 

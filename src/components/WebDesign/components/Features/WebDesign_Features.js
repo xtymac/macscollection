@@ -18,9 +18,9 @@ const WebDesign_Features = (props) => {
             >
               <h3>Responsive Design</h3>
               <p>
-                The website is delivered using flexible, media query, and
-                responsive units. It is supposed to maintain a consistent
-                experience across different devices.
+                The website is delivered using flexbox, media query, and
+                responsive units. The website is intended to maintain a
+                consistent experience across different devices.
               </p>
             </BoxListLeft>
 
@@ -32,8 +32,8 @@ const WebDesign_Features = (props) => {
             >
               <h3>Mobile Friendly UI</h3>
               <p>
-                Whether it is the mobile menu, horizontal scroll, or flexible
-                box, the user experience on the mobile site is unique. It will
+                From the mobile menu to the horizontal scroll to the flexible
+                box, the user experience on the mobile site is unique and will
                 not compromise on any screen.
               </p>
             </BoxListRight>
@@ -51,6 +51,20 @@ const WebDesign_Features = (props) => {
                 it, the performance of the site has been improved by 10%.
               </p>
             </BoxListLeft>
+
+            <BoxListRight
+              className={classes.features_boxLists_boxList}
+              videoSrc={
+                'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_4.mov'
+              }
+            >
+              <h3>Transition and Lazy Load</h3>
+              <p>
+                In order to load content such as showcase (video) faster, the
+                page has implemented React transition and lazy loading. The
+                continuous loading is happening when the user scrolls down.
+              </p>
+            </BoxListRight>
           </ol>
         </div>
       </div>

@@ -2,18 +2,19 @@
 
 /* MacsCollection */
 .logo {
-  a {
+  .logoImg {
     cursor: pointer;
     text-decoration: none;
-    margin-bottom: 0.4%;
+    margin: 2% auto 2.5%;
     font-family: 'Mrs Saint Delafield', cursive;
     color: white;
     white-space: nowrap;
     font-style: normal;
-    font-size: 5.5rem;
+    width: 26rem;
     transition: all 0.3s ease-in-out;
     @media (max-width: 768px) {
-      font-size: 5.6rem;
+      width: 26rem;
+      margin: 4% auto 0%;
     }
   }
 }

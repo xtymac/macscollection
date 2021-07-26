@@ -25,8 +25,8 @@ const MobileApp_Features = () => {
             >
               <h3>Make your goal smart</h3>
               <p>
-                In just a few clicks, you are able to set your first SMART goal.
-                Be sure to make it Specific, Measurable, Achievable, Realistic,
+                In just a few clicks, users are able to set SMART goals, being
+                sure to make them Specific, Measurable, Achievable, Realistic,
                 and Timely.
               </p>
             </BoxListLeft>
@@ -39,9 +39,9 @@ const MobileApp_Features = () => {
             >
               <h3>Low effort, high impact</h3>
               <p>
-                Our goal achievement process allows you to divide your goal into
-                a todo-list. By cross them off from the list, you are able to
-                master the progress of your master plan.
+                Our goal achievement process allows users to divide their goals
+                into a to-do-list. By crossing them off from the list, users are
+                able to monitor the progress of their master plans.
               </p>
             </BoxListRight>
 
@@ -53,10 +53,10 @@ const MobileApp_Features = () => {
             >
               <h3>See your progress, lively</h3>
               <p>
-                The mini progress bar is always there, measuring your progress.
-                Once you swape off any of the tasks on the list, it will update
-                automatically. Once you checked all of them. Congratulation! You
-                have just reached one goal.
+                A mini progress bar is always visible, measuring users’
+                progress. Once users swipe off any of the tasks on the list, the
+                list will update automatically. Once all of them are checked,
+                congratulations, the goal has been reached.
               </p>
             </BoxListLeft>
 
@@ -68,10 +68,10 @@ const MobileApp_Features = () => {
             >
               <h3>Let us support you</h3>
               <p>
-                Having trouble sticking the plan individually? We have weekly
-                meetings and monthly workshops to motivate you. Come and share
-                what you have accomplished so far and what next steps you are
-                going to take.
+                Having trouble sticking to the plan individually? We have weekly
+                meetings and monthly workshops to motivate users. Users can come
+                and share what they have accomplished so far and what next steps
+                they are going to take.
               </p>
             </BoxListRight>
           </ol>

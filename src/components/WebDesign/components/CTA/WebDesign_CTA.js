@@ -11,18 +11,18 @@ const WebDesign_CTA = () => {
         <CTASLOGAN
           cta_Slogan_Img={OCTOCAT}
           cta_Slogan_Img_Alt={'GitHub Octocat'}
-          className={classes.wd_cta_Slogan_Img}
+          className={classes.wd_cta_Slogan}
         >
-          <p>View source code of this portfolio,</p>
+          <p>View latest source code of this portfolio.</p>
           <p>
-            get your link &nbsp;
+            Get your&nbsp;
             <a
               href="https://github.com/xtymac/macscollection"
               target="_blank"
               rel="noreferrer"
               className={classes.wd_link}
             >
-              from here.
+              link here.
             </a>
           </p>
         </CTASLOGAN>
