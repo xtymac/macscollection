@@ -27,7 +27,7 @@ const WebDesign_Features = (props) => {
             <BoxListRight
               className={classes.features_boxLists_boxList}
               videoSrc={
-                'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_2.mov'
+                'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_2v2.mov'
               }
             >
               <h3>Mobile Friendly UI</h3>
