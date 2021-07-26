@@ -1,6 +1,6 @@
 import classes from './Footer.module.scss';
 
-import facebook from './Icons/Facebook.svg';
+import FIGMA from './Icons/Figma.svg';
 import notion from './Icons/Notion.svg';
 import linkedIn from './Icons/LinkedIn.svg';
 import gitHub from './Icons/GitHub.svg';
@@ -13,12 +13,12 @@ const Footer = (props) => {
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/profile.php?id=100006328785282"
+                href="https://www.figma.com/file/R4GmdwrGEM65goAL2OjoQ6/Mac-s-Collection?node-id=1219%3A6388"
                 target="_blank"
                 rel="noopener noreferrer"
-                alt="Facebook"
+                alt="Figma"
               >
-                <img src={facebook} alt="Facebook" />
+                <img src={FIGMA} alt="Facebook" />
               </a>
             </li>
             <li>
@@ -26,7 +26,7 @@ const Footer = (props) => {
                 href="https://macxiang.notion.site/Mac-s-Collection-71a7e302db5b442d8fcde943d6abd79d"
                 target="_blank"
                 rel="noopener noreferrer"
-                alt="notion"
+                alt="Notion"
               >
                 <img src={notion} alt="Notion" />
               </a>
@@ -46,7 +46,7 @@ const Footer = (props) => {
                 href="https://github.com/xtymac/macscollection"
                 target="_blank"
                 rel="noopener noreferrer"
-                alt="gitHub"
+                alt="GitHub"
               >
                 <img src={gitHub} alt="gitHub" />
               </a>
