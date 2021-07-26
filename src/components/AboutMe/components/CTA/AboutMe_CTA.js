@@ -212,15 +212,15 @@ const AboutMe_CTA = () => {
             </div>
           </div>
           <div className={classes.am_CTA_Slogan_text}>
-            <p>Design for future, design for diversity.</p>
+            <p>Design for culture, design for diversity.</p>
             <p>
               <a
-                href="https://www.instagram.com/explore/tags/strongtogether/?hl=en"
+                href="https://macxiang.notion.site/Mac-s-Collection-71a7e302db5b442d8fcde943d6abd79d"
                 target="_blank"
                 rel="noreferrer"
                 className={classes.am_link}
               >
-                #strongtogether
+                #logodesign
               </a>
             </p>
           </div>
