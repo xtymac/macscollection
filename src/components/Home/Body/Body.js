@@ -35,17 +35,19 @@ class Body extends React.Component {
 
   render() {
     return (
-      <section className={classes.body}>
-        <div className={classes.slogan}>
-          <img
-            src={this.state.images[this.state.currentImage]}
-            alt="cleaning images"
-          />
-          {/* <img src={Slogan} alt="slogan" />
+      <section class={classes.home_body}>
+        <div className={classes.body_container}>
+          <div className={classes.slogan}>
+            <img
+              src={this.state.images[this.state.currentImage]}
+              alt="cleaning images"
+            />
+            {/* <img src={Slogan} alt="slogan" />
           <img src={SloganJP} alt="SloganJP" /> */}
-        </div>
-        <div className={classes.logo}>
-          <ReactLogo />
+          </div>
+          <div className={classes.logo}>
+            <ReactLogo />
+          </div>
         </div>
       </section>
     );
