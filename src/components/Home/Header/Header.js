@@ -17,19 +17,21 @@ const Header = () => {
   };
 
   return (
-    <header className={classes.header}>
-      <Logo className={classes.logo} />
+    <section className={classes.home_header}>
+      <div className={classes.header_container}>
+        <Logo className={classes.logo} />
 
-      <MobileMenuIcon
-        className={classes.mobileMenuIcon}
-        openMenu={displayMobileMenuHandler}
-      />
+        <MobileMenuIcon
+          className={classes.mobileMenuIcon}
+          openMenu={displayMobileMenuHandler}
+        />
 
-      {/* toggle mobile menu */}
-      {displayMobileMenu && <MobileMenu closeMenu={closeMobileMenuHandler} />}
+        {/* toggle mobile menu */}
+        {displayMobileMenu && <MobileMenu closeMenu={closeMobileMenuHandler} />}
 
-      <Navigation />
-    </header>
+        <Navigation />
+      </div>
+    </section>
   );
 };
 

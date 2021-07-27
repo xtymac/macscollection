@@ -1,35 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
 
-.body {
-  position: relative;
+.home_body {
   height: 60vh;
-  max-width: 1280px;
-  margin: 0 auto;
-  // @media (max-width: 400px) {
-  //   height: 60vh;
-  // }
-  .slogan {
-    position: absolute;
-    bottom: 0%;
-    right: 0;
-    img {
-      width: 52vmin;
-      animation: fadeIn 0.5s ease-in-out;
-      @media (max-width: 768px) {
-        width: 320px;
-      }
-      @media (max-width: 400px) {
-        width: 260px;
+  .body_container {
+    position: relative;
+    height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    // @media (max-width: 400px) {
+    //   height: 60vh;
+    // }
+    .slogan {
+      position: absolute;
+      bottom: 0%;
+      right: 0;
+      img {
+        width: 52vmin;
+        animation: fadeIn 0.5s ease-in-out;
+        @media (max-width: 768px) {
+          width: 320px;
+        }
+        @media (max-width: 400px) {
+          width: 260px;
+        }
       }
     }
-  }
-  .logo {
-    position: absolute;
-    top: 0;
-    left: 0;
+    .logo {
+      position: absolute;
+      top: 0;
+      left: 0;
 
-    @media (max-height: 800px) and (min-width: 1280px) {
-      transform: translate(100%, 0%);
+      @media (max-height: 800px) and (min-width: 1280px) {
+        transform: translate(100%, 0%);
+      }
     }
   }
 }

@@ -3,16 +3,11 @@
   .logoImg {
     cursor: pointer;
     text-decoration: none;
-    margin: 2% auto 2.5%;
-    font-family: 'Mrs Saint Delafield', cursive;
-    color: white;
-    white-space: nowrap;
-    font-style: normal;
+    margin: 6.5rem auto 3.5rem;
     width: 26rem;
     transition: all 0.3s ease-in-out;
     @media (max-width: 768px) {
-      width: 26rem;
-      margin: 4% auto 0%;
+      margin: 5% auto 0%;
     }
   }
 }
