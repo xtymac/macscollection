@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 html {
-  background-color: #0c0c0d;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
   font-size: 60%;
   @media (max-height: 800px) and (min-width: 768px) {
     font-size: 55%;
@@ -22,7 +13,7 @@ html {
 .App-body {
   // height: 100vh;
   overflow: hidden;
-  font-family: Graphik, Avenir Next, Helvetica Neue, Helvetica, Arial,
+  font-family: 'Graphik', 'Avenir Next', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
   @media (max-width: 1280px) {
     width: auto;
