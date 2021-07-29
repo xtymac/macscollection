@@ -52,7 +52,8 @@ const UnityProject_ContentBlock = () => {
           <div className={classes.uc_block_description}>
             The uniform design uses typical 21st-century baseball player
             clothing as a reference. By adding logos, both the player and the
-            brand info have the chance to shine on the virtual baseball field.
+            Major League Baseball (MLB) brand have the chance to shine on the
+            baseball field.
           </div>
         </ContentBlock>
       </div>
