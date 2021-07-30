@@ -24,6 +24,9 @@
         @media (max-width: 400px) {
           width: 240px;
         }
+        @media (min-width: 1280px) {
+          width: 480px;
+        }
       }
     }
     .logo {
