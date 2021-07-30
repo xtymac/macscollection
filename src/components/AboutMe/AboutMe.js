@@ -10,7 +10,7 @@ const AboutMe = () => {
   return (
     <>
       <section className={classes.aboutMe}>
-        <ShowcaseImage
+        {/* <ShowcaseImage
           imgSrc={
             'https://d3iqs67oyp9328.cloudfront.net/Video/AboutMe/AboutMe_Showcase.mov'
           }
@@ -18,7 +18,7 @@ const AboutMe = () => {
             'https://d3iqs67oyp9328.cloudfront.net/Video/AboutMe/AboutMe_Showcase768.mov'
           }
           className={classes.aboutMe_showcase_video}
-        />
+        /> */}
 
         <div className={classes.aboutMe_Intro}>
           <Introduction />

@@ -220,7 +220,7 @@ const AboutMe_CTA = () => {
                 rel="noreferrer"
                 className={classes.am_link}
               >
-                #logodesign
+                #LogoStory
               </a>
             </p>
           </div>
