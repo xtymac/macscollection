@@ -2,7 +2,7 @@ import classes from './WebDesign_CTA.module.scss';
 
 import CTASLOGAN from '../../../../Layout/CTA/CTA_Slogan';
 
-import OCTOCAT from '../../image/Octocat.png';
+import OCTOCAT from '../../image/Octocat.svg';
 
 const WebDesign_CTA = () => {
   return (
