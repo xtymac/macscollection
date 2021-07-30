@@ -62,10 +62,10 @@ const Unity3D_Features = (props) => {
             >
               <h3>Quick Rewind</h3>
               <p>
-                After the first round of using the application, Quick Rewind is
-                activated automatically. In this mode, transitions are skipped
-                so that users can progress through the experience at a fast
-                pace.
+                After the first round of using the application, Quick Rewind
+                automatically activates. In this mode, the application skips the
+                transitions so that users can progress through the experience at
+                a fast pace.
               </p>
             </BoxListRight>
           </ol>
