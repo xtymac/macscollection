@@ -4,12 +4,11 @@ const WebDesign_Intro = () => {
   return (
     <Introduction>
       <div style={{ color: 'black' }}>
-        Mac's Collection is a Front-End Portfolio based on React.js, Scss, and
-        AWS. It features a responsive, mobile-friendly, and original design
-        built from scratch. This portfolio demonstrates my projects from 2020 to
-        2021. The theme revolves around encouraging people during the global
-        pandemic, and the projects allowed me to practice my user experience
-        design and hone my front-end development skills.
+        MacsCollection.com is a Front-End Portfolio based on React.js, HTML, and
+        Scss. It has a responsive, mobile-friendly, and original design built
+        from scratch. This portfolio demonstrates my projects from 2020 to 2021.
+        This project aims to encourage people during the global pandemic and
+        practice my design and development skills.
       </div>
     </Introduction>
   );
