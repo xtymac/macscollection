@@ -4,11 +4,23 @@ import BoxListLeft from '../../../../Layout/BoxList/BoxListLeft';
 import BoxListRight from '../../../../Layout/BoxList/BoxListRight';
 
 const Unity3D_Features = (props) => {
+  const {
+    feature,
+    unity_Features_1_title,
+    unity_Features_1_body,
+    unity_Features_2_title,
+    unity_Features_2_body,
+    unity_Features_3_title,
+    unity_Features_3_body,
+    unity_Features_4_title,
+    unity_Features_4_body,
+  } = window.LANG;
+
   return (
     <>
       <div className={classes.unity3d_features}>
         <Subtitle className={classes.unity3d_features_subtitle}>
-          Features
+          {feature}
         </Subtitle>
         <div className={classes.unity3d_features_boxLists}>
           <ol>
@@ -18,12 +30,8 @@ const Unity3D_Features = (props) => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/MLB_1.mov'
               }
             >
-              <h3>Full Animation Characters</h3>
-              <p>
-                Each player on the field has been fully animated under the
-                instruction of professionals. Real-time movement makes the
-                experience intuitive.
-              </p>
+              <h3>{unity_Features_1_title}</h3>
+              <p>{unity_Features_1_body}</p>
             </BoxListLeft>
 
             <BoxListRight
@@ -32,12 +40,8 @@ const Unity3D_Features = (props) => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/MLB_2.mov'
               }
             >
-              <h3>Smooth Camera Movement</h3>
-              <p>
-                For each camera movement, the timeline transition has been
-                carefully calibrated in order to match the tension of a baseball
-                game.
-              </p>
+              <h3>{unity_Features_2_title}</h3>
+              <p>{unity_Features_2_body}</p>
             </BoxListRight>
 
             <BoxListLeft
@@ -46,12 +50,8 @@ const Unity3D_Features = (props) => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/MLB_3.mov'
               }
             >
-              <h3>Responsive UI Components</h3>
-              <p>
-                The user interfaces of this assignment are designed to match in
-                terms of color schemes and visual elements. They are also
-                responsive in adapting to different screen sizes.
-              </p>
+              <h3>{unity_Features_3_title}</h3>
+              <p>{unity_Features_3_body}</p>
             </BoxListLeft>
 
             <BoxListRight
@@ -60,13 +60,8 @@ const Unity3D_Features = (props) => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/MLB_4.mov'
               }
             >
-              <h3>Quick Rewind</h3>
-              <p>
-                After the first round of using the application, Quick Rewind
-                automatically activates. In this mode, the application skips the
-                transitions so that users can progress through the experience at
-                a fast pace.
-              </p>
+              <h3>{unity_Features_4_title}</h3>
+              <p>{unity_Features_4_body}</p>
             </BoxListRight>
           </ol>
         </div>

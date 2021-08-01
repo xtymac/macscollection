@@ -7,6 +7,8 @@ import CTASlogan from '../../../../Layout/CTA/CTA_Slogan';
 import CTAICON from '../../image/CTA_Icon.svg';
 
 const AboutMe_CTA = () => {
+  const { aboutMe_CTA } = window.LANG;
+
   const data = [
     {
       // Blue
@@ -212,7 +214,7 @@ const AboutMe_CTA = () => {
             </div>
           </div>
           <div className={classes.am_CTA_Slogan_text}>
-            <p>Design for culture, design for diversity.</p>
+            <p>{aboutMe_CTA}</p>
             <p>
               <a
                 href="https://macxiang.notion.site/Mac-s-Collection-71a7e302db5b442d8fcde943d6abd79d"

@@ -5,6 +5,8 @@ import CTASLOGAN from '../../../../Layout/CTA/CTA_Slogan';
 import OCTOCAT from '../../image/Octocat.svg';
 
 const WebDesign_CTA = () => {
+  const { webDesign_CTA } = window.LANG;
+
   return (
     <div className={classes.webDesign_CTA}>
       <div className={classes.wd_container}>
@@ -13,7 +15,7 @@ const WebDesign_CTA = () => {
           cta_Slogan_Img_Alt={'GitHub Octocat'}
           className={classes.wd_cta_Slogan}
         >
-          <p>View latest source code of this portfolio.</p>
+          <p>{webDesign_CTA}</p>
           <p>
             Get your&nbsp;
             <a

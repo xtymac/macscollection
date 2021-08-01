@@ -6,6 +6,15 @@ import REACT from '../../image/React.png';
 import ARCHI from '../../image/Architecture.svg';
 
 const WebDesign_ContentBlock = () => {
+  const {
+    webDesign_CBox_1_title,
+    webDesign_CBox_1_body,
+    webDesign_CBox_2_title,
+    webDesign_CBox_2_body,
+    webDesign_CBox_3_title,
+    webDesign_CBox_3_body,
+  } = window.LANG;
+
   return (
     <div className={classes.webDesign_ContentBlock}>
       <div className={classes.contentBlock_TopLine} />
@@ -15,12 +24,9 @@ const WebDesign_ContentBlock = () => {
           alt={'Video Marketing 2021'}
           className={classes.wc_block_1}
         >
-          <div className={classes.wc_block_title}>Video as the mainstream</div>
+          <div className={classes.wc_block_title}>{webDesign_CBox_1_title}</div>
           <div className={classes.wc_block_description}>
-            This portfolio is utilizing video as the main demonstration tool.
-            Video content has become the mainstream medium for businesses to
-            engage in online marketing. According to research from Wyzowl, its
-            dominance comes to 86% in the year 2021.
+            {webDesign_CBox_1_body}
           </div>
         </ContentBlock>
 
@@ -29,14 +35,9 @@ const WebDesign_ContentBlock = () => {
           alt={'Image of VSCode'}
           className={classes.wc_block_2}
         >
-          <div className={classes.wc_block_title}>
-            Practice the React features
-          </div>
+          <div className={classes.wc_block_title}>{webDesign_CBox_2_title}</div>
           <div className={classes.wc_block_description}>
-            The underlying framework of this project is React.js which includes
-            features such as a component base, high efficiency, and more.
-            Combined with the CSS module, I am able to build UI components
-            within the scope without worrying too much about file management.
+            {webDesign_CBox_2_body}
           </div>
         </ContentBlock>
 
@@ -45,12 +46,9 @@ const WebDesign_ContentBlock = () => {
           alt={'Image of Architecture'}
           className={classes.wc_block_3}
         >
-          <div className={classes.wc_block_title}>Deployment to the cloud</div>
+          <div className={classes.wc_block_title}>{webDesign_CBox_3_title}</div>
           <div className={classes.wc_block_description}>
-            Using AWS Amplify, this project is built and deployed on the cloud.
-            The CloudFront content delivery network has the potential to
-            accommodate a large amount of traffic, and Router 53 is in charge of
-            the DNS service.
+            {webDesign_CBox_3_body}
           </div>
         </ContentBlock>
       </div>

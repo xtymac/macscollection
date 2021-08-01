@@ -42,7 +42,7 @@
 .btnWrap {
   position: absolute;
   top: 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   color: #bbbbbb;
   @media (max-width: 768px) {
@@ -64,6 +64,8 @@
     display: block;
     text-decoration: none;
     cursor: pointer;
+    // font-weight: 500;
+    font-size: 1.8rem;
     font-weight: normal;
     &::after {
       content: '';

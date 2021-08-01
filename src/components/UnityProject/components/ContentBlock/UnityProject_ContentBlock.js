@@ -6,6 +6,14 @@ import UNITYEDITOR from '../../image/UnityEditor.png';
 import UNIFORM from '../../image/UniformDesign.png';
 
 const UnityProject_ContentBlock = () => {
+  const {
+    unity_CBox_1_title,
+    unity_CBox_1_body,
+    unity_CBox_2_title,
+    unity_CBox_2_body,
+    unity_CBox_3_body,
+  } = window.LANG;
+
   return (
     <div className={classes.unityProject_ContentBlock}>
       <div className={classes.uc_container}>
@@ -14,14 +22,9 @@ const UnityProject_ContentBlock = () => {
           alt={'Image of Changing Room'}
           className={classes.uc_block_1}
         >
-          <div className={classes.uc_block_title}>
-            Working with professional resources
-          </div>
+          <div className={classes.uc_block_title}>{unity_CBox_1_title}</div>
           <div className={classes.uc_block_description}>
-            This project has made it possible to build a baseball primer,
-            complete with animated players and professional assets. More
-            importantly, this project aims to call for entries from actual game
-            players, baseball enthusiasts, and typical sportspeople.
+            {unity_CBox_1_body}
           </div>
         </ContentBlock>
 
@@ -30,14 +33,9 @@ const UnityProject_ContentBlock = () => {
           alt={'Image of Unity Editor'}
           className={classes.uc_block_2}
         >
-          <div className={classes.uc_block_title}>
-            Timelines and cinematic shots
-          </div>
+          <div className={classes.uc_block_title}>{unity_CBox_2_title}</div>
           <div className={classes.uc_block_description}>
-            The opening of the project is a cutscene in which users are able to
-            overlook a stadium. This cutscene is followed by a close-up shot on
-            the player and a dolly zoom after the ball is pitched. These clips
-            form the opening, and they are both composed within one Timeline.
+            {unity_CBox_2_body}
           </div>
         </ContentBlock>
 
@@ -50,10 +48,7 @@ const UnityProject_ContentBlock = () => {
             MLB <span>x</span> TEAM MAC
           </div>
           <div className={classes.uc_block_description}>
-            The uniform design uses typical 21st-century baseball player
-            clothing as a reference. By adding logos, both the player and the
-            Major League Baseball (MLB) brand have the chance to shine on the
-            baseball field.
+            {unity_CBox_3_body}
           </div>
         </ContentBlock>
       </div>
