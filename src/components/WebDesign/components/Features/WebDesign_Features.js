@@ -46,7 +46,7 @@ const WebDesign_Features = (props) => {
             >
               <h3>Reusable Components</h3>
               <p>
-                From box list to content block, many components of this site is
+                From box list to content block, many components of this site are
                 reusable; this is one of the key features of React. By utilizing
                 it, the performance of the site has been improved by 10%.
               </p>
@@ -65,6 +65,20 @@ const WebDesign_Features = (props) => {
                 continuous loading is happening when the user scrolls down.
               </p>
             </BoxListRight>
+
+            <BoxListLeft
+              className={classes.features_boxLists_boxList}
+              videoSrc={
+                'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_3.mov'
+              }
+            >
+              <h3>Multi-Lingual Support</h3>
+              <p>
+                "Sakura Bloom" is a responsive button that sits on the home
+                page. It is an indicator and clickable component that changes
+                its state with the language of the site.
+              </p>
+            </BoxListLeft>
           </ol>
         </div>
       </div>
