@@ -1,11 +1,14 @@
 import classes from './Navigation.module.scss';
+import classNames from 'classnames'; //class拼装插件
+
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
-  const { home, web, mobile, unity, about } = window.LANG;
+  const { home, web, mobile, unity, about, titleClass, linkNav } = window.LANG;
   return (
     <>
-      <nav className={classes.navbar}>
+      {/*拼装两个class*/}
+      <nav className={classNames(classes.navbar, classes[linkNav])}>
         <ul>
           <li>
             <Link to="/">{home}</Link>

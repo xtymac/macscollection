@@ -1,4 +1,6 @@
 const EN = {
+  titleClass: 'titleClass',
+  linkNav: 'linkNav',
   home: 'ホーム',
   web: 'ウェブデザイン',
   mobile: 'モバイルアプリ',
