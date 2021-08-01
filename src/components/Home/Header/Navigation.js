@@ -2,24 +2,25 @@ import classes from './Navigation.module.scss';
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
+  const { home, web, mobile, unity, about } = window.LANG;
   return (
     <>
       <nav className={classes.navbar}>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">{home}</Link>
           </li>
           <li>
-            <Link to="/WebDesign">Web Design</Link>
+            <Link to="/WebDesign">{web}</Link>
           </li>
           <li>
-            <Link to="/MobileApp">Mobile App</Link>
+            <Link to="/MobileApp">{mobile}</Link>
           </li>
           <li>
-            <Link to="/UnityProject">Unity Project</Link>
+            <Link to="/UnityProject">{unity}</Link>
           </li>
           <li>
-            <Link to="/AboutMe">About Me</Link>
+            <Link to="/AboutMe">{about}</Link>
           </li>
         </ul>
       </nav>

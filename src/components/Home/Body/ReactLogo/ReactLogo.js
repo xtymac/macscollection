@@ -10,27 +10,30 @@ import SAKURA_UNFILLED from './sakura_unfilled.svg';
 import Zoom from 'react-reveal/Zoom';
 
 const ReactLogo = (props) => {
-  const [sakuraState, fillSakuraState] = useState(false);
+  const [sakuraState, fillSakuraState] = useState(
+    window.location.hash === '#JP'
+  );
 
   const sakuraFilledHandler = () => {
     fillSakuraState(true);
+    window.location.hash = `#JP`;
+    window.location.reload();
   };
 
   const sakuraUnfilledHandler = () => {
     fillSakuraState(false);
+    window.location.hash = `#EN`;
+    window.location.reload();
   };
 
   return (
     <div className={classes.SakuraButton}>
-      {!sakuraState && (
-        <Sakura imgSrc={SAKURA_UNFILLED} fullFill={sakuraFilledHandler} />
-      )}
-
-      {sakuraState && (
-        <Zoom duration={800}>
-          <Sakura imgSrc={SAKURA_FILLED} fullFill={sakuraUnfilledHandler} />
-        </Zoom>
-      )}
+      <Zoom duration={800}>
+        <Sakura
+          imgSrc={sakuraState ? SAKURA_FILLED : SAKURA_UNFILLED}
+          fullFill={sakuraState ? sakuraUnfilledHandler : sakuraFilledHandler}
+        />
+      </Zoom>
     </div>
   );
 };

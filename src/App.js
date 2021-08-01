@@ -16,6 +16,16 @@ import ScrollToTop from 'react-scroll-to-top';
 // Image
 import { ReactComponent as ARROW } from './assets/image/arrow-up.svg';
 
+import EN from './EN';
+import JP from './JP';
+if (window.location.hash === '#EN') {
+  window.LANG = EN;
+} else if (window.location.hash === '#JP') {
+  window.LANG = JP;
+} else {
+  window.LANG = EN;
+}
+
 function App() {
   return (
     <Router>
