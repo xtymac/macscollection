@@ -16,23 +16,23 @@
       bottom: 0%;
       right: 0;
       img {
-        width: 52vmin;
+        width: 50vmin;
         animation: fadeIn 0.5s ease-in-out;
         @media (max-width: 768px) {
-          width: 300px;
+          width: 30rem;
         }
         @media (max-width: 400px) {
-          width: 240px;
+          width: 24rem;
         }
         @media (min-width: 1280px) {
-          width: 480px;
+          width: 50rem;
         }
       }
     }
     .logo {
       position: absolute;
       top: 0;
-      left: 0;
+      left: 3vw;
 
       @media (max-height: 800px) and (min-width: 1280px) {
         transform: translate(100%, 0%);

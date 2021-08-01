@@ -22,7 +22,10 @@ const Showcase_image = (props) => {
             muted
             playsInline
             preload="true"
-          />
+            poster={props.placeholderSrc}
+          >
+            Loading the video...
+          </video>
         </div>
       </div>
     </>

@@ -8,6 +8,8 @@ const Backdrop = (props) => {
 };
 
 const MenuOverlay = (props) => {
+  const { home, web, mobile, unity, about, linkNav } = window.LANG;
+
   return (
     <>
       {/* mobile menu */}
@@ -15,19 +17,19 @@ const MenuOverlay = (props) => {
         <nav>
           <ul onClick={props.closeMenu}>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">{home}</Link>
             </li>
             <li>
-              <Link to="/WebDesign">Web Design</Link>
+              <Link to="/WebDesign">{web}</Link>
             </li>
             <li>
-              <Link to="/MobileApp">Mobile App</Link>
+              <Link to="/MobileApp">{mobile}</Link>
             </li>
             <li>
-              <Link to="/UnityProject">Unity Project</Link>
+              <Link to="/UnityProject">{unity}</Link>
             </li>
             <li>
-              <Link to="/AboutMe">About Me</Link>
+              <Link to="/AboutMe">{about}</Link>
             </li>
           </ul>
         </nav>

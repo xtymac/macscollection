@@ -14,10 +14,10 @@
       cursor: pointer;
       display: inline-block;
       //! item distance
-      margin: 0.5% 4%;
+      margin: 0.4rem 4%;
       width: auto;
       a {
-        font-size: 2rem;
+        font-size: 2.3rem;
         font-weight: 500;
         color: white;
         text-decoration: none;
@@ -27,6 +27,18 @@
           font-weight: 600;
           text-shadow: 0 15px 5px rgba(255, 230, 0, 0.445);
         }
+      }
+    }
+  }
+}
+
+.linkNav {
+  color: yellow;
+  ul {
+    li {
+      margin: 0.4rem 3%;
+      a {
+        font-size: 2.2rem;
       }
     }
   }

@@ -3,6 +3,8 @@ import Introduction from '../../../../Layout/Introduction/Introduction';
 import AboutMeAvatar from '../../image/AboutMe_Avatar.png';
 
 const AboutMe_Introduction = () => {
+  const { aboutMe_Intro } = window.LANG;
+
   return (
     <div className={classes.ai_Introduction}>
       <div className={classes.ai_Avatar}>
@@ -16,15 +18,7 @@ const AboutMe_Introduction = () => {
         </div>
       </div>
       <Introduction className={classes.ai_Introduction_fix}>
-        <div style={{ color: 'white' }}>
-          I am a web designer living in Tokyo, Japan. I perform web development,
-          front-end design, and usability research. I am currently searching for
-          a new opportunity in the tech industry. I have full professional
-          proficiency in English, Japanese, Chinese, and I am eager to work in a
-          diversified environment. I am familiar with HTML, CSS, JavaScript,
-          AWS, and Unity, which I use to help build a better web experience for
-          users from different backgrounds.
-        </div>
+        <div style={{ color: 'white' }}>{aboutMe_Intro}</div>
       </Introduction>
     </div>
   );

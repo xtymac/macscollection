@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Logo from '../Header/Logo';
 import Navigation from './Navigation';
+import Language from './Language.jsx';
 import MobileMenu from './MobileMenu/MobileMenu';
 import MobileMenuIcon from '../Header/MobileMenu/MobileMenuIcon';
 import classes from './Header.module.scss';
@@ -30,6 +31,7 @@ const Header = () => {
         {displayMobileMenu && <MobileMenu closeMenu={closeMobileMenuHandler} />}
 
         <Navigation />
+        <Language />
       </div>
     </section>
   );

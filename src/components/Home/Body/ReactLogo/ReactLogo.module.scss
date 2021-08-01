@@ -1,21 +1,10 @@
-.App-logo {
-  height: 8vmin;
-  pointer-events: none;
-  @media (max-width: 768px) {
-    height: 50px;
-  }
-  @media (min-width: 1280px) {
-    width: 120px;
-  }
-}
-
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .SakuraButton {
+    animation: SakuraButton-spin infinite 20s linear;
   }
 }
 
-@keyframes App-logo-spin {
+@keyframes SakuraButton-spin {
   from {
     transform: rotate(0deg);
   }

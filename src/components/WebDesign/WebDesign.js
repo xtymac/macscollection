@@ -6,6 +6,8 @@ import WebDesignIntro from './components/Introduction/WebDesign_Intro';
 import CONTENTBLOCK from './components/ContentBlock/WebDesign_ContentBlock';
 import CTA from './components/CTA/WebDesign_CTA';
 
+import VIDEOPLACEHOLDER from './Video/placeholder.png';
+
 const WebDesign = () => {
   return (
     <>
@@ -17,6 +19,7 @@ const WebDesign = () => {
           imgSrc768={
             'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_Showcase768.mov'
           }
+          placeholderSrc={VIDEOPLACEHOLDER}
           className={classes.webDesign_showcase_video}
         />
 
