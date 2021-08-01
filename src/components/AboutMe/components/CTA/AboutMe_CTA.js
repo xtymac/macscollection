@@ -217,12 +217,12 @@ const AboutMe_CTA = () => {
             <p>{aboutMe_CTA}</p>
             <p>
               <a
-                href="https://macxiang.notion.site/Mac-s-Collection-71a7e302db5b442d8fcde943d6abd79d"
+                href="https://youtu.be/2rUzY78peyI"
                 target="_blank"
                 rel="noreferrer"
                 className={classes.am_link}
               >
-                #LogoStory
+                #Design&Culture
               </a>
             </p>
           </div>
