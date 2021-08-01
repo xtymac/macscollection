@@ -23,7 +23,7 @@ const AboutMe_Introduction = () => {
           proficiency in English, Japanese, Chinese, and I am eager to work in a
           diversified environment. I am familiar with HTML, CSS, JavaScript,
           AWS, and Unity, which I use to help build a better web experience for
-          users from different backgrounds.
+          users with different backgrounds.
         </div>
       </Introduction>
     </div>
