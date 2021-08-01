@@ -34,7 +34,7 @@ const EN = {
   webDesign_CBox_3_title: 'クラウドへの導入',
   webDesign_CBox_3_body:
     'このプロジェクトはAWS Amplifyを利用し、クラウド上に構築・導入されています。コンテンツ配信ネットワーク「CloudFront」は大量のトラフィックを处理できる潜在力があり、「Router 53」がDNSサービスを担当しています。',
-  webDesign_CTA: 'このポートフォリオの最新のソースコードを表示します。',
+  webDesign_CTA: 'ポートフォリオの最新のソースコードを表示します。',
   mobileApp_Header: 'SMARTになった目標',
   mobileApp_Heading1: 'SMARTになった目標',
   mobileApp_Heading2:

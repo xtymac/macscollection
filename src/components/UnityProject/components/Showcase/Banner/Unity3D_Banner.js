@@ -1,6 +1,8 @@
 import classes from './Unity3D_Banner.module.scss';
 import GOGGLE from '../../../image/goggle.svg';
 
+import VIDEOPLACEHOLDER from '../../../Video/placeholder.png';
+
 const Unity3D_Banner = () => {
   const { unity_Slogan } = window.LANG;
 
@@ -22,6 +24,7 @@ const Unity3D_Banner = () => {
           muted
           playsInline
           preload="true"
+          poster={VIDEOPLACEHOLDER}
         />
       </div>
       <div className={classes.unity3d_slogan}>

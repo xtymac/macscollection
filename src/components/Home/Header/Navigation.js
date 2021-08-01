@@ -4,10 +4,10 @@ import classNames from 'classnames'; //class拼装插件
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
-  const { home, web, mobile, unity, about, titleClass, linkNav } = window.LANG;
+  const { home, web, mobile, unity, about, linkNav } = window.LANG;
   return (
     <>
-      {/*拼装两个class*/}
+      {/*Style for JP*/}
       <nav className={classNames(classes.navbar, classes[linkNav])}>
         <ul>
           <li>
