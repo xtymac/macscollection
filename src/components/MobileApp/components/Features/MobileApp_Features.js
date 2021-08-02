@@ -10,14 +10,16 @@ import MobileAppNext from './Next/MobileApp_Next';
 const MobileApp_Features = () => {
   const {
     feature,
-    mobileApp_Features_1_title,
-    mobileApp_Features_1_body,
-    mobileApp_Features_2_title,
-    mobileApp_Features_2_body,
-    mobileApp_Features_3_title,
-    mobileApp_Features_3_body,
-    mobileApp_Features_4_title,
-    mobileApp_Features_4_body,
+    mobileApp: {
+      Features_1_title,
+      Features_1_body,
+      Features_2_title,
+      Features_2_body,
+      Features_3_title,
+      Features_3_body,
+      Features_4_title,
+      Features_4_body,
+    },
     download,
   } = window.LANG;
 
@@ -36,8 +38,8 @@ const MobileApp_Features = () => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/MobileApp/Aimily_1.mov'
               }
             >
-              <h3>{mobileApp_Features_1_title}</h3>
-              <p>{mobileApp_Features_1_body}</p>
+              <h3>{Features_1_title}</h3>
+              <p>{Features_1_body}</p>
             </BoxListLeft>
 
             <BoxListRight
@@ -46,8 +48,8 @@ const MobileApp_Features = () => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/MobileApp/Aimily_2.mov'
               }
             >
-              <h3>{mobileApp_Features_2_title}</h3>
-              <p>{mobileApp_Features_2_body}</p>
+              <h3>{Features_2_title}</h3>
+              <p>{Features_2_body}</p>
             </BoxListRight>
 
             <BoxListLeft
@@ -56,8 +58,8 @@ const MobileApp_Features = () => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/MobileApp/Aimily_3.mov'
               }
             >
-              <h3>{mobileApp_Features_3_title}</h3>
-              <p>{mobileApp_Features_3_body}</p>
+              <h3>{Features_3_title}</h3>
+              <p>{Features_3_body}</p>
             </BoxListLeft>
 
             <BoxListRight
@@ -66,8 +68,8 @@ const MobileApp_Features = () => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/MobileApp/Aimily_4.mov'
               }
             >
-              <h3>{mobileApp_Features_4_title}</h3>
-              <p>{mobileApp_Features_4_body}</p>
+              <h3>{Features_4_title}</h3>
+              <p>{Features_4_body}</p>
             </BoxListRight>
           </ol>
         </div>

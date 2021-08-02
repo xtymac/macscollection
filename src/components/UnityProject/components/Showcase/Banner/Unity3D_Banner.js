@@ -4,7 +4,9 @@ import GOGGLE from '../../../image/goggle.svg';
 import VIDEOPLACEHOLDER from '../../../Video/placeholder.png';
 
 const Unity3D_Banner = () => {
-  const { unity_Slogan } = window.LANG;
+  const {
+    unityPage: { Slogan },
+  } = window.LANG;
 
   const OPENING =
     'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/Opening.mov';
@@ -29,7 +31,7 @@ const Unity3D_Banner = () => {
       </div>
       <div className={classes.unity3d_slogan}>
         <div className={classes.unity3d_slogan_text}>
-          <p>{unity_Slogan}</p>
+          <p>{Slogan}</p>
         </div>
         <div className={classes.unity3d_slogan_goggle}>
           <img

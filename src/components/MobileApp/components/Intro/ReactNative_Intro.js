@@ -1,12 +1,14 @@
 import Introduction from '../../../../Layout/Introduction/Introduction';
 
 const ReactNative_Intro = (props) => {
-  const { mobileApp_Intro } = window.LANG;
+  const {
+    mobileApp: { Intro },
+  } = window.LANG;
 
   return (
     <>
       <Introduction>
-        <div style={{ color: 'white' }}>{mobileApp_Intro}</div>
+        <div style={{ color: 'white' }}>{Intro}</div>
       </Introduction>
     </>
   );

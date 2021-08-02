@@ -11,7 +11,9 @@ import LazyLoad from 'react-lazyload';
 import Fade from 'react-reveal/Fade';
 
 const UnityProject_CTA = () => {
-  const { unity_CTA } = window.LANG;
+  const {
+    unityPage: { CTA },
+  } = window.LANG;
 
   return (
     <div className={classes.unityProject_CTA}>
@@ -29,7 +31,7 @@ const UnityProject_CTA = () => {
           cta_Slogan_Img_Alt={'Trophy'}
           className={classes.up_cta_Slogan}
         >
-          <p>{unity_CTA}</p>
+          <p>{CTA}</p>
           <p>
             Get your&nbsp;
             <a

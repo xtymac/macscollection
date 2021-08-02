@@ -4,6 +4,10 @@ import BLOG from '../../../image/Blog.png';
 import Slide from 'react-reveal/Slide';
 
 const MobileApp_Next = () => {
+  const {
+    mobileApp: { Blog_h1, Blog_h2 },
+  } = window.LANG;
+
   return (
     <>
       <div className={classes.mobileApp_next_wave} />
@@ -12,8 +16,8 @@ const MobileApp_Next = () => {
           <div className={classes.next_title_heading1}>COMING NEXT</div>
           <div className={classes.next_title_heading2}>Aimily Blog</div>
           <div className={classes.next_title_heading3}>
-            Knowing what we are doing helps <br />
-            you do better with our App
+            {Blog_h1} <br />
+            {Blog_h2}
           </div>
         </div>
 
