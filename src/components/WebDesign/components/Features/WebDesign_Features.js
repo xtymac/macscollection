@@ -6,16 +6,18 @@ import BoxListRight from '../../../../Layout/BoxList/BoxListRight';
 const WebDesign_Features = (props) => {
   const {
     feature,
-    webDesign_Features_1_title,
-    webDesign_Features_1_body,
-    webDesign_Features_2_title,
-    webDesign_Features_2_body,
-    webDesign_Features_3_title,
-    webDesign_Features_3_body,
-    webDesign_Features_4_title,
-    webDesign_Features_4_body,
-    webDesign_Features_5_title,
-    webDesign_Features_5_body,
+    webDesign: {
+      Features_1_title,
+      Features_1_body,
+      Features_2_title,
+      Features_2_body,
+      Features_3_title,
+      Features_3_body,
+      Features_4_title,
+      Features_4_body,
+      Features_5_title,
+      Features_5_body,
+    },
   } = window.LANG;
   return (
     <>
@@ -29,8 +31,8 @@ const WebDesign_Features = (props) => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_1.mov'
               }
             >
-              <h3>{webDesign_Features_1_title}</h3>
-              <p>{webDesign_Features_1_body}</p>
+              <h3>{Features_1_title}</h3>
+              <p>{Features_1_body}</p>
             </BoxListLeft>
 
             <BoxListRight
@@ -39,8 +41,8 @@ const WebDesign_Features = (props) => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_2v2.mov'
               }
             >
-              <h3>{webDesign_Features_2_title}</h3>
-              <p>{webDesign_Features_2_body}</p>
+              <h3>{Features_2_title}</h3>
+              <p>{Features_2_body}</p>
             </BoxListRight>
 
             <BoxListLeft
@@ -49,8 +51,8 @@ const WebDesign_Features = (props) => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_3.mov'
               }
             >
-              <h3>{webDesign_Features_3_title}</h3>
-              <p>{webDesign_Features_3_body}</p>
+              <h3>{Features_3_title}</h3>
+              <p>{Features_3_body}</p>
             </BoxListLeft>
 
             <BoxListRight
@@ -59,8 +61,8 @@ const WebDesign_Features = (props) => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_4.mov'
               }
             >
-              <h3>{webDesign_Features_4_title}</h3>
-              <p>{webDesign_Features_4_body}</p>
+              <h3>{Features_4_title}</h3>
+              <p>{Features_4_body}</p>
             </BoxListRight>
 
             <BoxListLeft
@@ -69,8 +71,8 @@ const WebDesign_Features = (props) => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/WebDesign/WebDesign_5.mov'
               }
             >
-              <h3>{webDesign_Features_5_title}</h3>
-              <p>{webDesign_Features_5_body}</p>
+              <h3>{Features_5_title}</h3>
+              <p>{Features_5_body}</p>
             </BoxListLeft>
           </ol>
         </div>

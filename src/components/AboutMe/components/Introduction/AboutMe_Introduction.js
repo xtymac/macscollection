@@ -3,7 +3,9 @@ import Introduction from '../../../../Layout/Introduction/Introduction';
 import AboutMeAvatar from '../../image/AboutMe_Avatar.png';
 
 const AboutMe_Introduction = () => {
-  const { aboutMe_Intro } = window.LANG;
+  const {
+    aboutMe: { Intro },
+  } = window.LANG;
 
   return (
     <div className={classes.ai_Introduction}>
@@ -18,7 +20,7 @@ const AboutMe_Introduction = () => {
         </div>
       </div>
       <Introduction className={classes.ai_Introduction_fix}>
-        <div style={{ color: 'white' }}>{aboutMe_Intro}</div>
+        <div style={{ color: 'white' }}>{Intro}</div>
       </Introduction>
     </div>
   );

@@ -6,14 +6,16 @@ import BoxListRight from '../../../../Layout/BoxList/BoxListRight';
 const Unity3D_Features = (props) => {
   const {
     feature,
-    unity_Features_1_title,
-    unity_Features_1_body,
-    unity_Features_2_title,
-    unity_Features_2_body,
-    unity_Features_3_title,
-    unity_Features_3_body,
-    unity_Features_4_title,
-    unity_Features_4_body,
+    unityPage: {
+      Features_1_title,
+      Features_1_body,
+      Features_2_title,
+      Features_2_body,
+      Features_3_title,
+      Features_3_body,
+      Features_4_title,
+      Features_4_body,
+    },
   } = window.LANG;
 
   return (
@@ -30,8 +32,8 @@ const Unity3D_Features = (props) => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/MLB_1.mov'
               }
             >
-              <h3>{unity_Features_1_title}</h3>
-              <p>{unity_Features_1_body}</p>
+              <h3>{Features_1_title}</h3>
+              <p>{Features_1_body}</p>
             </BoxListLeft>
 
             <BoxListRight
@@ -40,8 +42,8 @@ const Unity3D_Features = (props) => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/MLB_2.mov'
               }
             >
-              <h3>{unity_Features_2_title}</h3>
-              <p>{unity_Features_2_body}</p>
+              <h3>{Features_2_title}</h3>
+              <p>{Features_2_body}</p>
             </BoxListRight>
 
             <BoxListLeft
@@ -50,8 +52,8 @@ const Unity3D_Features = (props) => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/MLB_3.mov'
               }
             >
-              <h3>{unity_Features_3_title}</h3>
-              <p>{unity_Features_3_body}</p>
+              <h3>{Features_3_title}</h3>
+              <p>{Features_3_body}</p>
             </BoxListLeft>
 
             <BoxListRight
@@ -60,8 +62,8 @@ const Unity3D_Features = (props) => {
                 'https://d3iqs67oyp9328.cloudfront.net/Video/UnityProject/MLB_4.mov'
               }
             >
-              <h3>{unity_Features_4_title}</h3>
-              <p>{unity_Features_4_body}</p>
+              <h3>{Features_4_title}</h3>
+              <p>{Features_4_body}</p>
             </BoxListRight>
           </ol>
         </div>

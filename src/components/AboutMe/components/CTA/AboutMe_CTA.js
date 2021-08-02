@@ -7,7 +7,9 @@ import CTASlogan from '../../../../Layout/CTA/CTA_Slogan';
 import CTAICON from '../../image/CTA_Icon.svg';
 
 const AboutMe_CTA = () => {
-  const { aboutMe_CTA } = window.LANG;
+  const {
+    aboutMe: { CTA },
+  } = window.LANG;
 
   const data = [
     {
@@ -214,7 +216,7 @@ const AboutMe_CTA = () => {
             </div>
           </div>
           <div className={classes.am_CTA_Slogan_text}>
-            <p>{aboutMe_CTA}</p>
+            <p>{CTA}</p>
             <p>
               <a
                 href="https://youtu.be/2rUzY78peyI"

@@ -7,11 +7,13 @@ import UNIFORM from '../../image/UniformDesign.png';
 
 const UnityProject_ContentBlock = () => {
   const {
-    unity_CBox_1_title,
-    unity_CBox_1_body,
-    unity_CBox_2_title,
-    unity_CBox_2_body,
-    unity_CBox_3_body,
+    unityPage: {
+      CBox_1_title,
+      CBox_1_body,
+      CBox_2_title,
+      CBox_2_body,
+      CBox_3_body,
+    },
   } = window.LANG;
 
   return (
@@ -22,10 +24,8 @@ const UnityProject_ContentBlock = () => {
           alt={'Image of Changing Room'}
           className={classes.uc_block_1}
         >
-          <div className={classes.uc_block_title}>{unity_CBox_1_title}</div>
-          <div className={classes.uc_block_description}>
-            {unity_CBox_1_body}
-          </div>
+          <div className={classes.uc_block_title}>{CBox_1_title}</div>
+          <div className={classes.uc_block_description}>{CBox_1_body}</div>
         </ContentBlock>
 
         <ContentBlock
@@ -33,10 +33,8 @@ const UnityProject_ContentBlock = () => {
           alt={'Image of Unity Editor'}
           className={classes.uc_block_2}
         >
-          <div className={classes.uc_block_title}>{unity_CBox_2_title}</div>
-          <div className={classes.uc_block_description}>
-            {unity_CBox_2_body}
-          </div>
+          <div className={classes.uc_block_title}>{CBox_2_title}</div>
+          <div className={classes.uc_block_description}>{CBox_2_body}</div>
         </ContentBlock>
 
         <ContentBlock
@@ -47,9 +45,7 @@ const UnityProject_ContentBlock = () => {
           <div className={classes.uc_block_title}>
             MLB <span>x</span> TEAM MAC
           </div>
-          <div className={classes.uc_block_description}>
-            {unity_CBox_3_body}
-          </div>
+          <div className={classes.uc_block_description}>{CBox_3_body}</div>
         </ContentBlock>
       </div>
       <div className={classes.uc_DistanceBetweenNext} />

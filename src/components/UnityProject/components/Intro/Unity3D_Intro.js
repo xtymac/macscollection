@@ -1,11 +1,13 @@
 import Introduction from '../../../../Layout/Introduction/Introduction';
 
 const Unity3D_Intro = () => {
-  const { unity_Intro } = window.LANG;
+  const {
+    unityPage: { Intro },
+  } = window.LANG;
 
   return (
     <Introduction>
-      <div style={{ color: 'white' }}>{unity_Intro}</div>
+      <div style={{ color: 'white' }}>{Intro}</div>
     </Introduction>
   );
 };
