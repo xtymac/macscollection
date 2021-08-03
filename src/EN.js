@@ -4,12 +4,16 @@ import unityPage from './Text/unity_EN';
 import aboutMe from './Text/aboutMe_EN';
 
 const EN = {
-  // Basic
+  // Navi
   home: 'Home',
+  video: 'Video',
   web: 'Web Design',
-  mobile: 'Mobile App',
-  unity: 'Unity Project',
-  about: 'About Me',
+  mobile: 'App Design',
+  ui: 'UI Design',
+  unity: '3D Design',
+  photograph: 'Photograph',
+  about: 'About',
+  // Basic
   feature: 'Feature',
   download: 'Download',
   // Pages

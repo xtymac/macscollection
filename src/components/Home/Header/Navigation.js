@@ -4,7 +4,8 @@ import classNames from 'classnames'; //class拼装插件
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
-  const { home, web, mobile, unity, about, linkNav } = window.LANG;
+  const { home, video, web, mobile, ui, unity, photograph, about, linkNav } =
+    window.LANG;
   return (
     <>
       {/*Style for JP*/}
@@ -14,13 +15,24 @@ const Navigation = () => {
             <Link to="/">{home}</Link>
           </li>
           <li>
+            <a href={'https://www.macsgraphicwork.com/video'}>{video}</a>
+          </li>
+          <li>
             <Link to="/WebDesign">{web}</Link>
           </li>
           <li>
             <Link to="/MobileApp">{mobile}</Link>
           </li>
           <li>
+            <a href={'https://www.macsgraphicwork.com/uidesign'}>{ui}</a>
+          </li>
+          <li>
             <Link to="/UnityProject">{unity}</Link>
+          </li>
+          <li>
+            <a href={'https://www.macsgraphicwork.com/photograph'}>
+              {photograph}
+            </a>
           </li>
           <li>
             <Link to="/AboutMe">{about}</Link>
