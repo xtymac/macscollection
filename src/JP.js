@@ -7,12 +7,16 @@ const EN = {
   // Styling
   titleClass: 'titleClass',
   linkNav: 'linkNav',
-  // Basic
+  // Navi
   home: 'ホーム',
-  web: 'ウェブデザイン',
-  mobile: 'モバイルアプリ',
-  unity: 'Unity プロジェクト',
+  video: 'ビデオ',
+  web: 'WEBデザイン',
+  mobile: 'アプリデザイン',
+  ui: 'UIデザイン',
+  unity: '3Dデザイン',
+  photograph: '写真',
   about: '私について',
+  // Basic
   feature: '特 徴',
   download: 'ダウンロード',
   // Pages

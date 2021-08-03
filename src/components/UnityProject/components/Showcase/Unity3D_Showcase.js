@@ -12,7 +12,7 @@ const Unity3D_Showcase = () => {
           src={SHOWCASE}
           srcset={`${SHOWCASE768} 768w, ${SHOWCASE} 1280w`}
           alt="Unity3D Showcase"
-          className={classes.unity3d_showcase_video}
+          className={classes.unity3d_showcase_img}
         />
         {/* <video
           className={classes.unity3d_showcase_video}
