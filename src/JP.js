@@ -11,7 +11,7 @@ const EN = {
   home: 'ホーム',
   video: 'ビデオ',
   web: 'WEBデザイン',
-  mobile: 'アプリデザイン',
+  mobile: 'APPデザイン',
   ui: 'UIデザイン',
   unity: '3Dデザイン',
   photograph: '写真',
