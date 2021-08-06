@@ -8,6 +8,7 @@ import SAKURA_FILLED from './sakura_filled.svg';
 import SAKURA_UNFILLED from './sakura_unfilled.svg';
 
 import Zoom from 'react-reveal/Zoom';
+import Pulse from 'react-reveal/Pulse';
 
 const ReactLogo = (props) => {
   const [sakuraState, fillSakuraState] = useState(
@@ -29,10 +30,12 @@ const ReactLogo = (props) => {
   return (
     <div className={classes.SakuraButton}>
       <Zoom duration={800}>
-        <Sakura
-          imgSrc={sakuraState ? SAKURA_FILLED : SAKURA_UNFILLED}
-          fullFill={sakuraState ? sakuraUnfilledHandler : sakuraFilledHandler}
-        />
+        <Pulse delay={1000} duration={500} count={2}>
+          <Sakura
+            imgSrc={sakuraState ? SAKURA_FILLED : SAKURA_UNFILLED}
+            fullFill={sakuraState ? sakuraUnfilledHandler : sakuraFilledHandler}
+          />
+        </Pulse>
       </Zoom>
     </div>
   );
