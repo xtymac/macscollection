@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import classes from './Sakura.module.scss';
 
 import { withStyles } from '@material-ui/core/styles';
@@ -15,7 +16,7 @@ const LightTooltip = withStyles((theme) => ({
 const Sakura = (props) => {
   return (
     <LightTooltip
-      title={window.location.hash === '#EN' ? '日本語' : 'English'}
+      title={window.location.hash === '#JP' || '' ? 'English' : '日本語'}
       placement="right"
       Style={{ fontSize: ' 40rem' }}
     >
