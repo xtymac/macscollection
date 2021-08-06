@@ -1,11 +1,29 @@
+import { useState } from 'react';
 import classes from './Sakura.module.scss';
-import SAKURA from './sakura_unfilled.svg';
+
+import { withStyles } from '@material-ui/core/styles';
+import Tooltip from '@material-ui/core/Tooltip';
+
+const LightTooltip = withStyles((theme) => ({
+  tooltip: {
+    backgroundColor: theme.palette.common.white,
+    color: '#0c0c0d',
+    boxShadow: theme.shadows[1],
+    fontSize: 11,
+  },
+}))(Tooltip);
 
 const Sakura = (props) => {
   return (
-    <div onClick={props.fullFill}>
-      <img src={props.imgSrc} className={classes['App-logo']} alt="logo" />
-    </div>
+    <LightTooltip
+      title={window.location.hash === '#JP' || '' ? 'English' : '日本語'}
+      placement="right"
+      Style={{ fontSize: ' 40rem' }}
+    >
+      <div onClick={props.fullFill}>
+        <img src={props.imgSrc} className={classes['App-logo']} alt="logo" />
+      </div>
+    </LightTooltip>
   );
 };
 export default Sakura;
