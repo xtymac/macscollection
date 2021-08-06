@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import classes from './Sakura.module.scss';
 
 import { withStyles } from '@material-ui/core/styles';
@@ -18,7 +17,6 @@ const Sakura = (props) => {
     <LightTooltip
       title={window.location.hash === '#JP' || '' ? 'English' : '日本語'}
       placement="right"
-      Style={{ fontSize: ' 40rem' }}
     >
       <div onClick={props.fullFill}>
         <img src={props.imgSrc} className={classes['App-logo']} alt="logo" />
