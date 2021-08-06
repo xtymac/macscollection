@@ -21,7 +21,15 @@ const MenuOverlay = (props) => {
               <Link to="/">{home}</Link>
             </li>
             <li>
-              <a href={'https://www.macsgraphicwork.com/video'}>{video}</a>
+              <a
+                href={
+                  window.location.hash === '#JP'
+                    ? 'https://www.macsgraphicwork.com/video?lang=ja'
+                    : 'https://www.macsgraphicwork.com/video'
+                }
+              >
+                {video}
+              </a>
             </li>
             <li>
               <Link to="/WebDesign">{web}</Link>
@@ -30,13 +38,27 @@ const MenuOverlay = (props) => {
               <Link to="/MobileApp">{mobile}</Link>
             </li>
             <li>
-              <a href={'https://www.macsgraphicwork.com/uidesign'}>{ui}</a>
+              <a
+                href={
+                  window.location.hash === '#JP'
+                    ? 'https://www.macsgraphicwork.com/uidesign?lang=ja'
+                    : 'https://www.macsgraphicwork.com/uidesign'
+                }
+              >
+                {ui}
+              </a>
             </li>
             <li>
               <Link to="/UnityProject">{unity}</Link>
             </li>
             <li>
-              <a href={'https://www.macsgraphicwork.com/photograph'}>
+              <a
+                href={
+                  window.location.hash === '#JP'
+                    ? 'https://www.macsgraphicwork.com/photograph?lang=ja'
+                    : 'https://www.macsgraphicwork.com/photograph'
+                }
+              >
                 {photograph}
               </a>
             </li>
