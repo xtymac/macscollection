@@ -26,9 +26,9 @@ const unity_EN = {
     'The uniform design uses typical 21st-century baseball player clothing as a reference. By adding logos, both the player and the Major League Baseball (MLB) brand have the chance to shine on the baseball field.',
   CBox_4_title: 'Usability Test and Iterations',
   CBox_4_body:
-    'The project has gone through several usability tests and iterations before reaching the final prototype. Each of the iterations contains improvements from frequently mentioned issues.',
+    'The project has gone through several usability tests and iterations before reaching the final prototype. Each of the iterations contains improvements from frequently mentioned issues. ',
   click: 'Click here',
-  CBox_4_body_2: 'to see the full report on research presentation.',
+  CBox_4_body_2: ' to see the research presentation.',
   CTA: 'Hands-on with our latest prototype on Unity Play.',
 };
 

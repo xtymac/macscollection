@@ -4,6 +4,7 @@ import ContentBlock from '../../../../Layout/ContentBlock/ContentBlock';
 import SOVM from '../../image/SOVM.png';
 import REACT from '../../image/React.png';
 import ARCHI from '../../image/Architecture.svg';
+import FIGMADESIGN from '../../image/FigmaDesign.png';
 
 const WebDesign_ContentBlock = () => {
   const {
@@ -14,6 +15,10 @@ const WebDesign_ContentBlock = () => {
       CBox_2_body,
       CBox_3_title,
       CBox_3_body,
+      CBox_4_title,
+      CBox_4_body,
+      link,
+      CBox_4_body_2,
     },
   } = window.LANG;
 
@@ -46,6 +51,26 @@ const WebDesign_ContentBlock = () => {
         >
           <div className={classes.wc_block_title}>{CBox_3_title}</div>
           <div className={classes.wc_block_description}>{CBox_3_body}</div>
+        </ContentBlock>
+
+        <ContentBlock
+          imgSrc={FIGMADESIGN}
+          alt={'Image of Figma Artboard'}
+          className={classes.wc_block_4}
+        >
+          <div className={classes.wc_block_title}>{CBox_4_title}</div>
+          <div className={classes.wc_block_description}>
+            {CBox_4_body}
+            <a
+              href="https://www.figma.com/file/R4GmdwrGEM65goAL2OjoQ6/Mac-s-Collection?node-id=1219%3A6388"
+              target="_blank"
+              rel="noreferrer"
+              className={classes.wc_link}
+            >
+              {link}
+            </a>
+            {CBox_4_body_2}
+          </div>
         </ContentBlock>
       </div>
       <div className={classes.wc_DistanceBetweenNext} />

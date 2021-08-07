@@ -56,11 +56,11 @@ const UnityProject_ContentBlock = () => {
         <ContentBlock
           imgSrc={PROJECTFLOW}
           alt={'Image of Project Flow'}
-          className={classes.uc_block_2}
+          className={classes.uc_block_4}
         >
           <div className={classes.uc_block_title}>{CBox_4_title}</div>
           <div className={classes.uc_block_description}>
-            {CBox_4_body}{' '}
+            {CBox_4_body}
             <a
               href="https://www.dropbox.com/s/69t0qammddbdvae/Baseball%20101%20Research%20Presentation.pdf?dl=0"
               target="_blank"
@@ -68,7 +68,7 @@ const UnityProject_ContentBlock = () => {
               className={classes.uc_link}
             >
               {click}
-            </a>{' '}
+            </a>
             {CBox_4_body_2}
           </div>
         </ContentBlock>
