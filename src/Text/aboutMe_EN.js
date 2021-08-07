@@ -1,6 +1,6 @@
 const aboutMe_EN = {
   Intro:
-    'I am a web designer living in Tokyo, Japan. I perform web development, front-end design, and usability research. I am currently searching for a new opportunity in the tech industry. I have full professional proficiency in English, Japanese, Chinese, and I am eager to work in a diversified environment. I am familiar with HTML, CSS, JavaScript, AWS, and Unity, which I use to help build a better web experience for users with different backgrounds.',
+    'I am a designer living in Tokyo, Japan. I perform web design, graphic, front-end, UIUX, and media production. I am familiar with HTML, CSS, JavaScript, Photoshop, Illustrator, Premiere, and After effects. I have full professional proficiency in English, Japanese, Chinese, and I aim to build a better user experience for people with different backgrounds.',
   CBox_1_title: 'Passing the right culture',
   CBox_1_body:
     'Over the past four years, I have completed several UIUX research projects using primary research, focus group, and both internal and external usability testing approaches. Besides extracting results from data and analytics, UIUX to me means the passing of a culture from a company to its target group.',

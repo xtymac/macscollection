@@ -219,12 +219,12 @@ const AboutMe_CTA = () => {
             <p>{CTA}</p>
             <p>
               <a
-                href="https://youtu.be/2rUzY78peyI"
+                href="mailto: xtymac2@gmail.com"
                 target="_blank"
                 rel="noreferrer"
                 className={classes.am_link}
               >
-                #Design&Culture
+                @ContactMe
               </a>
             </p>
           </div>
