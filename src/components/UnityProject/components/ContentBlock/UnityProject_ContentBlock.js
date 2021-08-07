@@ -4,6 +4,7 @@ import ContentBlock from '../../../../Layout/ContentBlock/ContentBlock';
 import CHANGEROOM from '../../image/ChangeRoom.png';
 import UNITYEDITOR from '../../image/UnityEditor.png';
 import UNIFORM from '../../image/UniformDesign.png';
+import PROJECTFLOW from '../../image/ProjectFlow.png';
 
 const UnityProject_ContentBlock = () => {
   const {
@@ -13,6 +14,10 @@ const UnityProject_ContentBlock = () => {
       CBox_2_title,
       CBox_2_body,
       CBox_3_body,
+      CBox_4_title,
+      CBox_4_body,
+      click,
+      CBox_4_body_2,
     },
   } = window.LANG;
 
@@ -46,6 +51,26 @@ const UnityProject_ContentBlock = () => {
             MLB <span>x</span> TEAM MAC
           </div>
           <div className={classes.uc_block_description}>{CBox_3_body}</div>
+        </ContentBlock>
+
+        <ContentBlock
+          imgSrc={PROJECTFLOW}
+          alt={'Image of Project Flow'}
+          className={classes.uc_block_4}
+        >
+          <div className={classes.uc_block_title}>{CBox_4_title}</div>
+          <div className={classes.uc_block_description}>
+            {CBox_4_body}
+            <a
+              href="https://www.dropbox.com/s/69t0qammddbdvae/Baseball%20101%20Research%20Presentation.pdf?dl=0"
+              target="_blank"
+              rel="noreferrer"
+              className={classes.uc_link}
+            >
+              {click}
+            </a>
+            {CBox_4_body_2}
+          </div>
         </ContentBlock>
       </div>
       <div className={classes.uc_DistanceBetweenNext} />

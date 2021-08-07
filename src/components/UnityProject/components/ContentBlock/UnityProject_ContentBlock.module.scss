@@ -4,7 +4,8 @@
 
   .uc_block_1,
   .uc_block_2,
-  .uc_block_3 {
+  .uc_block_3,
+  .uc_block_4 {
     margin-top: 2.5rem;
     img {
       width: 100rem;
@@ -38,5 +39,9 @@
   }
   .uc_DistanceBetweenNext {
     height: 10rem;
+  }
+  .uc_link {
+    cursor: pointer;
+    color: inherit;
   }
 }

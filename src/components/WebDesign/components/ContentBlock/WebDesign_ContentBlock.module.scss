@@ -15,7 +15,8 @@
 
   .wc_block_1,
   .wc_block_2,
-  .wc_block_3 {
+  .wc_block_3,
+  .wc_block_4 {
     margin-top: 2.5rem;
     img {
       width: 100rem;
@@ -47,7 +48,8 @@
     line-height: 4rem;
     font-weight: 500;
   }
-  // .wc_DistanceBetweenNext {
-  //   height: 0rem;
-  // }
+  .wc_link {
+    cursor: pointer;
+    color: inherit;
+  }
 }

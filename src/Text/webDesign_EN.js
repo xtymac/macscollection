@@ -25,6 +25,12 @@ const webDesign_EN = {
   CBox_3_title: 'Deployment to the cloud',
   CBox_3_body:
     'Using AWS Amplify, this project is built and deployed on the cloud. The CloudFront content delivery network has the potential to accommodate a large amount of traffic, and Router 53 is in charge of the DNS service.',
+  CBox_4_title: 'Start with a blue print',
+  CBox_4_body:
+    'Before starting the project in VSCode, a set of high fidelity wireframes of individual pages were constructed in Figma. ',
+  link: 'The blueprint',
+  CBox_4_body_2:
+    ' manages the color scheme, font style, basic layout, and reusable components.',
   CTA: 'View latest source code of this portfolio.',
 };
 
