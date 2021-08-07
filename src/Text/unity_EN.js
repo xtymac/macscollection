@@ -24,6 +24,11 @@ const unity_EN = {
     'The opening of the project is a cutscene in which users are able to overlook a stadium. This cutscene is followed by a close-up shot on the player and a dolly zoom after the ball is pitched. These clips form the opening, and they are both composed within one Timeline.',
   CBox_3_body:
     'The uniform design uses typical 21st-century baseball player clothing as a reference. By adding logos, both the player and the Major League Baseball (MLB) brand have the chance to shine on the baseball field.',
+  CBox_4_title: 'Usability Test and Iterations',
+  CBox_4_body:
+    'The project has gone through several usability tests and iterations before reaching the final prototype. Each of the iterations contains improvements from frequently mentioned issues.',
+  click: 'Click here',
+  CBox_4_body_2: 'to see the full report on research presentation.',
   CTA: 'Hands-on with our latest prototype on Unity Play.',
 };
 
